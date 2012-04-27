@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E74154A30F5009DF377 /* UIKit.framework */; };
+		FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E76154A30F5009DF377 /* Foundation.framework */; };
+		FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E78154A30F5009DF377 /* CoreGraphics.framework */; };
+		FD293E7F154A30F5009DF377 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD293E7D154A30F5009DF377 /* InfoPlist.strings */; };
+		FD293E81154A30F5009DF377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E80154A30F5009DF377 /* main.m */; };
+		FD293E85154A30F5009DF377 /* ALDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E84154A30F5009DF377 /* ALDAppDelegate.m */; };
+		FD293E88154A30F5009DF377 /* ALDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E87154A30F5009DF377 /* ALDViewController.m */; };
+		FD293E8B154A30F5009DF377 /* ALDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD293E89154A30F5009DF377 /* ALDViewController.xib */; };
+		FD293EAB154A339A009DF377 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA7154A339A009DF377 /* CoreLocation.framework */; };
+		FD293EAC154A339A009DF377 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA8154A339A009DF377 /* CoreTelephony.framework */; };
+		FD293EB4154A3A28009DF377 /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EB3154A3A28009DF377 /* libAppLovinSdk.a */; };
+		FD293EB5154B1F16009DF377 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA6154A339A009DF377 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppLovin-iPhone-SDK-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD293E74154A30F5009DF377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD293E76154A30F5009DF377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD293E78154A30F5009DF377 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD293E7C154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppLovin-iPhone-SDK-DemoApp-Info.plist"; sourceTree = "<group>"; };
+		FD293E7E154A30F5009DF377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD293E80154A30F5009DF377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD293E82154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppLovin-iPhone-SDK-DemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		FD293E83154A30F5009DF377 /* ALDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDAppDelegate.h; sourceTree = "<group>"; };
+		FD293E84154A30F5009DF377 /* ALDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDAppDelegate.m; sourceTree = "<group>"; };
+		FD293E86154A30F5009DF377 /* ALDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDViewController.h; sourceTree = "<group>"; };
+		FD293E87154A30F5009DF377 /* ALDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDViewController.m; sourceTree = "<group>"; };
+		FD293E8A154A30F5009DF377 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALDViewController.xib; sourceTree = "<group>"; };
+		FD293E9A154A3196009DF377 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAd.h; sourceTree = "<group>"; };
+		FD293E9B154A3196009DF377 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdDisplayDelegate.h; sourceTree = "<group>"; };
+		FD293E9C154A3196009DF377 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdLoadDelegate.h; sourceTree = "<group>"; };
+		FD293E9D154A3196009DF377 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdService.h; sourceTree = "<group>"; };
+		FD293E9E154A3196009DF377 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdSize.h; sourceTree = "<group>"; };
+		FD293E9F154A3196009DF377 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
+		FD293EA0154A3196009DF377 /* ALOptinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALOptinView.h; sourceTree = "<group>"; };
+		FD293EA1154A3196009DF377 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
+		FD293EA2154A3196009DF377 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
+		FD293EA6154A339A009DF377 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FD293EA7154A339A009DF377 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FD293EA8154A339A009DF377 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FD293EA9154A339A009DF377 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FD293EB3154A3A28009DF377 /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "../AppLovin-iPhone-SDK/build/libAppLovinSdk.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD293E6D154A30F5009DF377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD293EB5154B1F16009DF377 /* AddressBook.framework in Frameworks */,
+				FD293EAB154A339A009DF377 /* CoreLocation.framework in Frameworks */,
+				FD293EAC154A339A009DF377 /* CoreTelephony.framework in Frameworks */,
+				FD293EB4154A3A28009DF377 /* libAppLovinSdk.a in Frameworks */,
+				FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */,
+				FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */,
+				FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD293E65154A30F5009DF377 = {
+			isa = PBXGroup;
+			children = (
+				FD293EB3154A3A28009DF377 /* libAppLovinSdk.a */,
+				FD293EA6154A339A009DF377 /* AddressBook.framework */,
+				FD293EA7154A339A009DF377 /* CoreLocation.framework */,
+				FD293EA8154A339A009DF377 /* CoreTelephony.framework */,
+				FD293EA9154A339A009DF377 /* QuartzCore.framework */,
+				FD293E7A154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */,
+				FD293E73154A30F5009DF377 /* Frameworks */,
+				FD293E71154A30F5009DF377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD293E71154A30F5009DF377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD293E73154A30F5009DF377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD293E74154A30F5009DF377 /* UIKit.framework */,
+				FD293E76154A30F5009DF377 /* Foundation.framework */,
+				FD293E78154A30F5009DF377 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD293E7A154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD293E9A154A3196009DF377 /* ALAd.h */,
+				FD293E9B154A3196009DF377 /* ALAdDisplayDelegate.h */,
+				FD293E9C154A3196009DF377 /* ALAdLoadDelegate.h */,
+				FD293E9D154A3196009DF377 /* ALAdService.h */,
+				FD293E9E154A3196009DF377 /* ALAdSize.h */,
+				FD293E9F154A3196009DF377 /* ALAdView.h */,
+				FD293EA0154A3196009DF377 /* ALOptinView.h */,
+				FD293EA1154A3196009DF377 /* ALSdk.h */,
+				FD293EA2154A3196009DF377 /* ALSdkSettings.h */,
+				FD293E83154A30F5009DF377 /* ALDAppDelegate.h */,
+				FD293E84154A30F5009DF377 /* ALDAppDelegate.m */,
+				FD293E86154A30F5009DF377 /* ALDViewController.h */,
+				FD293E87154A30F5009DF377 /* ALDViewController.m */,
+				FD293E89154A30F5009DF377 /* ALDViewController.xib */,
+				FD293E7B154A30F5009DF377 /* Supporting Files */,
+			);
+			path = "AppLovin-iPhone-SDK-DemoApp";
+			sourceTree = "<group>";
+		};
+		FD293E7B154A30F5009DF377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD293E7C154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp-Info.plist */,
+				FD293E7D154A30F5009DF377 /* InfoPlist.strings */,
+				FD293E80154A30F5009DF377 /* main.m */,
+				FD293E82154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD293E6F154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD293E8E154A30F5009DF377 /* Build configuration list for PBXNativeTarget "AppLovin-iPhone-SDK-DemoApp" */;
+			buildPhases = (
+				FD293E6C154A30F5009DF377 /* Sources */,
+				FD293E6D154A30F5009DF377 /* Frameworks */,
+				FD293E6E154A30F5009DF377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppLovin-iPhone-SDK-DemoApp";
+			productName = "AppLovin-iPhone-SDK-DemoApp";
+			productReference = FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD293E67154A30F5009DF377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FD293E6A154A30F5009DF377 /* Build configuration list for PBXProject "AppLovin-iPhone-SDK-DemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD293E65154A30F5009DF377;
+			productRefGroup = FD293E71154A30F5009DF377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD293E6F154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD293E6E154A30F5009DF377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD293E7F154A30F5009DF377 /* InfoPlist.strings in Resources */,
+				FD293E8B154A30F5009DF377 /* ALDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD293E6C154A30F5009DF377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD293E81154A30F5009DF377 /* main.m in Sources */,
+				FD293E85154A30F5009DF377 /* ALDAppDelegate.m in Sources */,
+				FD293E88154A30F5009DF377 /* ALDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD293E7D154A30F5009DF377 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD293E7E154A30F5009DF377 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD293E89154A30F5009DF377 /* ALDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD293E8A154A30F5009DF377 /* en */,
+			);
+			name = ALDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD293E8C154A30F5009DF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD293E8D154A30F5009DF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD293E8F154A30F5009DF377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Prefix.pch";
+				INFOPLIST_FILE = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/AppLovin iPhone SDK\"",
+					"\"$(SRCROOT)/../AppLovin-iPhone-SDK/build\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD293E90154A30F5009DF377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Prefix.pch";
+				INFOPLIST_FILE = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/AppLovin iPhone SDK\"",
+					"\"$(SRCROOT)/../AppLovin-iPhone-SDK/build\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD293E6A154A30F5009DF377 /* Build configuration list for PBXProject "AppLovin-iPhone-SDK-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD293E8C154A30F5009DF377 /* Debug */,
+				FD293E8D154A30F5009DF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD293E8E154A30F5009DF377 /* Build configuration list for PBXNativeTarget "AppLovin-iPhone-SDK-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD293E8F154A30F5009DF377 /* Debug */,
+				FD293E90154A30F5009DF377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD293E67154A30F5009DF377 /* Project object */;
+}
