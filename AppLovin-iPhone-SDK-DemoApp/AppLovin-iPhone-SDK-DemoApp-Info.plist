@@ -4,6 +4,8 @@
 <dict>
 	<key>AppLovinSdkKey</key>
 	<string>YOUR_SDK_KEY_HERE</string>
+	<key>AppLovinVerboseLoggingOn</key>
+	<string>true</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

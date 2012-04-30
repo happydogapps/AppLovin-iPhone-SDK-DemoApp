@@ -6,14 +6,14 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ALDViewController.h"
+#import "ALDSimpleBannerController.h"
 #import "ALAdView.h"
 
-@interface ALDViewController ()
+@interface ALDSimpleBannerController ()
 
 @end
 
-@implementation ALDViewController
+@implementation ALDSimpleBannerController
 
 - (void)viewDidLoad
 {

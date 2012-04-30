@@ -26,15 +26,90 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    // Create new AdView
+    adView = [[ALAdView alloc] initBannerAd];
+    
+    //
+    // (Optional) Register self as listener for ad dispayed events. 
+    //
+    //    -(void) ad:(ALAd *) ad wasDisplayedIn: (ALAdView *)view will be invoked when
+    //
+    // an ad was recieved, rendered and loaded. 
+    //
+    adView.adDisplayDelegate = self;
+    
+    //
+    // (Optional) Position the ad at the bottom of screen. By default
+    // it would be postitioned at (0,0)
+    //
+    adView.frame = CGRectMake( 0, 
+                               mainView.frame.size.height - adView.frame.size.height,
+                               adView.frame.size.width,
+                               adView.frame.size.height );
+
+    
+    // (Mandatory) Add the ad into current view
+    [self.view addSubview: adView];
+    
+    // (Mandatory) Trigger loading of the new ad.
+    [adView loadNextAd];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    
+    // One must clear the ad dispaly delegate when the view is
+    // unloaded
+    adView.adDisplayDelegate = nil;
 }
+
+/**
+ * This method is invoked when the ad is displayed in the view.
+ * 
+ * @param ad     Ad that was just displayed. Guranteed not to be null.
+ * @param view   Ad view in which the ad was displayed. It will be this controller's view.
+ */
+-(void) ad:(ALAd *) ad wasDisplayedIn: (ALAdView *)view;
+{
+    // Resize main view to give room for the Ad view
+    CGRect mainViewFrame = CGRectMake( 0, 
+                                       0,
+                                       mainView.frame.size.width,
+                                       mainView.frame.size.height - adView.frame.size.height );
+    [UIView animateWithDuration: 0.01
+                          delay: 0.0
+                        options: UIViewAnimationOptionCurveLinear
+                     animations: ^{
+                         mainView.frame = mainViewFrame;
+                     }
+                     completion: NULL];
+}
+
+/**
+ * This method is invoked when the ad is hidden from in the view. This occurs
+ * when the ad is rotated or when it is explicitly closed.
+ * 
+ * @param ad     Ad that was just hidden. Guranteed not to be null.
+ * @param view   Ad view in which the ad was hidden. It will be this controller's view.
+ */
+-(void) ad:(ALAd *) ad wasHiddenIn: (ALAdView *)view
+{
+    // Resize main view to fill the whole screen
+    CGRect mainViewFrame = CGRectMake( 0, 
+                                       0,
+                                       mainView.frame.size.width,
+                                       self.view.frame.size.height );
+    [UIView animateWithDuration: 0.01
+                          delay: 0.0
+                        options: UIViewAnimationOptionCurveLinear
+                     animations: ^{
+                         mainView.frame = mainViewFrame;
+                     }
+                     completion: NULL];
+}
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

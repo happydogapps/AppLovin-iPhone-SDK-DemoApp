@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class ALDViewController;
+@class ALDSimpleBannerController;
 
 @interface ALDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ALDViewController *viewController;
+@property (strong, nonatomic) UIViewController *viewController;
 
 @end

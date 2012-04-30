@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ALDViewController : UIViewController
+@interface ALDSimpleBannerController : UIViewController
 
 @end

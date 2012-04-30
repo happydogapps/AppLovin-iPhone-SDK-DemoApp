@@ -8,7 +8,8 @@
 
 #import "ALDAppDelegate.h"
 
-#import "ALDViewController.h"
+#import "ALDSimpleBannerController.h"
+#import "ALDCustomBannerController.h"
 
 @implementation ALDAppDelegate
 
@@ -19,7 +20,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ALDViewController alloc] initWithNibName:@"ALDViewController" bundle:nil];
+    
+    self.viewController = [[ALDCustomBannerController alloc] initWithNibName:@"ALDCustomBannerController" bundle:nil];
+    //self.viewController = [[ALDSimpleBannerController alloc] initWithNibName:@"ALDViewController" bundle:nil];
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
