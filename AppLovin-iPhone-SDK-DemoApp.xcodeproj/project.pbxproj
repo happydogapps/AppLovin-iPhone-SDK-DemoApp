@@ -18,24 +18,16 @@
 		FD293E85154A30F5009DF377 /* ALDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E84154A30F5009DF377 /* ALDAppDelegate.m */; };
 		FD293E88154A30F5009DF377 /* ALDSimpleBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */; };
 		FD293E8B154A30F5009DF377 /* ALDSimpleBannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD293E89154A30F5009DF377 /* ALDSimpleBannerController.xib */; };
-		FD293EAB154A339A009DF377 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA7154A339A009DF377 /* CoreLocation.framework */; };
-		FD293EAC154A339A009DF377 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA8154A339A009DF377 /* CoreTelephony.framework */; };
-		FD293EB5154B1F16009DF377 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA6154A339A009DF377 /* AddressBook.framework */; };
+		FD9BB583163B130100099786 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA8154A339A009DF377 /* CoreTelephony.framework */; };
+		FD9BB584163B130A00099786 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA7154A339A009DF377 /* CoreLocation.framework */; };
+		FD9BB586163B134000099786 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9BB585163B134000099786 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD9BB588163B138A00099786 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9BB587163B138A00099786 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDCustomBannerController.h; sourceTree = "<group>"; };
 		FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDCustomBannerController.m; sourceTree = "<group>"; };
 		FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDCustomBannerController.xib; sourceTree = "<group>"; };
-		FD1E5C0A154F540500341290 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAd.h; sourceTree = "<group>"; };
-		FD1E5C0B154F540500341290 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdDisplayDelegate.h; sourceTree = "<group>"; };
-		FD1E5C0C154F540500341290 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdLoadDelegate.h; sourceTree = "<group>"; };
-		FD1E5C0D154F540500341290 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdService.h; sourceTree = "<group>"; };
-		FD1E5C0E154F540500341290 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdSize.h; sourceTree = "<group>"; };
-		FD1E5C0F154F540500341290 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
-		FD1E5C10154F540500341290 /* ALOptinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALOptinView.h; sourceTree = "<group>"; };
-		FD1E5C11154F540500341290 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
-		FD1E5C12154F540500341290 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
 		FD1E5C15154F58C500341290 /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "../AppLovin-iPhone-SDK/build/libAppLovinSdk.a"; sourceTree = "<group>"; };
 		FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppLovin-iPhone-SDK-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD293E74154A30F5009DF377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,19 +42,23 @@
 		FD293E86154A30F5009DF377 /* ALDSimpleBannerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDSimpleBannerController.h; sourceTree = "<group>"; };
 		FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDSimpleBannerController.m; sourceTree = "<group>"; };
 		FD293E8A154A30F5009DF377 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALDSimpleBannerController.xib; sourceTree = "<group>"; };
-		FD293E9A154A3196009DF377 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAd.h; sourceTree = "<group>"; };
-		FD293E9B154A3196009DF377 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdDisplayDelegate.h; sourceTree = "<group>"; };
-		FD293E9C154A3196009DF377 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdLoadDelegate.h; sourceTree = "<group>"; };
-		FD293E9D154A3196009DF377 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdService.h; sourceTree = "<group>"; };
-		FD293E9E154A3196009DF377 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdSize.h; sourceTree = "<group>"; };
-		FD293E9F154A3196009DF377 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
-		FD293EA0154A3196009DF377 /* ALOptinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALOptinView.h; sourceTree = "<group>"; };
-		FD293EA1154A3196009DF377 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
-		FD293EA2154A3196009DF377 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
 		FD293EA6154A339A009DF377 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		FD293EA7154A339A009DF377 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FD293EA8154A339A009DF377 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		FD293EA9154A339A009DF377 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FD9BB578163B127A00099786 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAd.h; path = AppLovin/ALAd.h; sourceTree = "<group>"; };
+		FD9BB579163B127A00099786 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdDisplayDelegate.h; path = AppLovin/ALAdDisplayDelegate.h; sourceTree = "<group>"; };
+		FD9BB57A163B127A00099786 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdLoadDelegate.h; path = AppLovin/ALAdLoadDelegate.h; sourceTree = "<group>"; };
+		FD9BB57B163B127A00099786 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdService.h; path = AppLovin/ALAdService.h; sourceTree = "<group>"; };
+		FD9BB57C163B127B00099786 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdSize.h; path = AppLovin/ALAdSize.h; sourceTree = "<group>"; };
+		FD9BB57D163B127B00099786 /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdUpdateDelegate.h; path = AppLovin/ALAdUpdateDelegate.h; sourceTree = "<group>"; };
+		FD9BB57E163B127B00099786 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdView.h; path = AppLovin/ALAdView.h; sourceTree = "<group>"; };
+		FD9BB57F163B127B00099786 /* ALInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALInterstitialAd.h; path = AppLovin/ALInterstitialAd.h; sourceTree = "<group>"; };
+		FD9BB580163B127B00099786 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALSdk.h; path = AppLovin/ALSdk.h; sourceTree = "<group>"; };
+		FD9BB581163B127B00099786 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALSdkSettings.h; path = AppLovin/ALSdkSettings.h; sourceTree = "<group>"; };
+		FD9BB582163B127B00099786 /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTargetingData.h; path = AppLovin/ALTargetingData.h; sourceTree = "<group>"; };
+		FD9BB585163B134000099786 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FD9BB587163B138A00099786 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9BB584163B130A00099786 /* CoreLocation.framework in Frameworks */,
+				FD9BB583163B130100099786 /* CoreTelephony.framework in Frameworks */,
+				FD9BB586163B134000099786 /* SystemConfiguration.framework in Frameworks */,
+				FD9BB588163B138A00099786 /* StoreKit.framework in Frameworks */,
 				FD1E5C16154F58C600341290 /* libAppLovinSdk.a in Frameworks */,
-				FD293EB5154B1F16009DF377 /* AddressBook.framework in Frameworks */,
-				FD293EAB154A339A009DF377 /* CoreLocation.framework in Frameworks */,
-				FD293EAC154A339A009DF377 /* CoreTelephony.framework in Frameworks */,
 				FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */,
 				FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */,
 				FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */,
@@ -83,41 +80,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD1E5BFC154F3DC100341290 /* AppLovin */ = {
-			isa = PBXGroup;
-			children = (
-				FD293E9A154A3196009DF377 /* ALAd.h */,
-				FD293E9B154A3196009DF377 /* ALAdDisplayDelegate.h */,
-				FD293E9C154A3196009DF377 /* ALAdLoadDelegate.h */,
-				FD293E9D154A3196009DF377 /* ALAdService.h */,
-				FD293E9E154A3196009DF377 /* ALAdSize.h */,
-				FD293E9F154A3196009DF377 /* ALAdView.h */,
-				FD293EA0154A3196009DF377 /* ALOptinView.h */,
-				FD293EA1154A3196009DF377 /* ALSdk.h */,
-				FD293EA2154A3196009DF377 /* ALSdkSettings.h */,
-			);
-			name = AppLovin;
-			sourceTree = "<group>";
-		};
-		FD1E5C09154F540500341290 /* AppLovin */ = {
-			isa = PBXGroup;
-			children = (
-				FD1E5C0A154F540500341290 /* ALAd.h */,
-				FD1E5C0B154F540500341290 /* ALAdDisplayDelegate.h */,
-				FD1E5C0C154F540500341290 /* ALAdLoadDelegate.h */,
-				FD1E5C0D154F540500341290 /* ALAdService.h */,
-				FD1E5C0E154F540500341290 /* ALAdSize.h */,
-				FD1E5C0F154F540500341290 /* ALAdView.h */,
-				FD1E5C10154F540500341290 /* ALOptinView.h */,
-				FD1E5C11154F540500341290 /* ALSdk.h */,
-				FD1E5C12154F540500341290 /* ALSdkSettings.h */,
-			);
-			path = AppLovin;
-			sourceTree = "<group>";
-		};
 		FD293E65154A30F5009DF377 = {
 			isa = PBXGroup;
 			children = (
+				FD9BB587163B138A00099786 /* StoreKit.framework */,
+				FD9BB585163B134000099786 /* SystemConfiguration.framework */,
 				FD1E5C15154F58C500341290 /* libAppLovinSdk.a */,
 				FD293EA6154A339A009DF377 /* AddressBook.framework */,
 				FD293EA7154A339A009DF377 /* CoreLocation.framework */,
@@ -150,7 +117,7 @@
 		FD293E7A154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				FD1E5C09154F540500341290 /* AppLovin */,
+				FD9BB577163B126800099786 /* Applovin */,
 				FD293E83154A30F5009DF377 /* ALDAppDelegate.h */,
 				FD293E84154A30F5009DF377 /* ALDAppDelegate.m */,
 				FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */,
@@ -159,7 +126,6 @@
 				FD293E86154A30F5009DF377 /* ALDSimpleBannerController.h */,
 				FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */,
 				FD293E89154A30F5009DF377 /* ALDSimpleBannerController.xib */,
-				FD1E5BFC154F3DC100341290 /* AppLovin */,
 				FD293E7B154A30F5009DF377 /* Supporting Files */,
 			);
 			path = "AppLovin-iPhone-SDK-DemoApp";
@@ -174,6 +140,24 @@
 				FD293E82154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD9BB577163B126800099786 /* Applovin */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BB578163B127A00099786 /* ALAd.h */,
+				FD9BB579163B127A00099786 /* ALAdDisplayDelegate.h */,
+				FD9BB57A163B127A00099786 /* ALAdLoadDelegate.h */,
+				FD9BB57B163B127A00099786 /* ALAdService.h */,
+				FD9BB57C163B127B00099786 /* ALAdSize.h */,
+				FD9BB57D163B127B00099786 /* ALAdUpdateDelegate.h */,
+				FD9BB57E163B127B00099786 /* ALAdView.h */,
+				FD9BB57F163B127B00099786 /* ALInterstitialAd.h */,
+				FD9BB580163B127B00099786 /* ALSdk.h */,
+				FD9BB581163B127B00099786 /* ALSdkSettings.h */,
+				FD9BB582163B127B00099786 /* ALTargetingData.h */,
+			);
+			name = Applovin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -8,14 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ALSdk.h"
 #import "ALAdService.h"
 
 @interface ALAdView : UIView<ALAdLoadDelegate>
 
-@property (assign, atomic) id<ALAdLoadDelegate> adLoadDelegate;
-@property (assign, atomic) id<ALAdDisplayDelegate> adDisplayDelegate;
+@property (unsafe_unretained, atomic) id<ALAdLoadDelegate> adLoadDelegate;
+@property (unsafe_unretained, atomic) id<ALAdDisplayDelegate> adDisplayDelegate;
 
-@property (assign, atomic) ALAdSize * adSize;
+@property (strong)         NSNumber * autoload;
+@property (strong, atomic) ALAdSize * adSize;
+@property (strong, atomic) NSString * adPlacement;
+
+@property (strong, atomic) UIViewController * parentController;
 
 /**
  * Start loading next advertisement. This method will return immediately. An
@@ -30,16 +35,38 @@
  */
 -(void)render:(ALAd *)ad;
 
-
 /**
  * Initialize ad view as a banner.
  */
 -(id)initBannerAd;
+
 
 /**
  * Initialize ad view as an interstitial.
  */
 -(id)initInterstitialAd;
 
+/**
+ * Initialize ad view as a banner.
+ *
+ * @param sdk    Instace of AppLovin SDK to use.
+ */
+-(id)initBannerAdWithSdk: (ALSdk *)anSdk;
+
+/**
+ * Initialize ad view as an interstitial.
+ *
+ * @param sdk    Instace of AppLovin SDK to use.
+ */
+-(id)initInterstitialAdWithSdk: (ALSdk *)anSdk;
+
+/**
+ * Initialize ad view with given frame and size
+ *
+ * @param frame  Ad frame to use.
+ * @param size   Ad size to use.
+ * @param sdk    Instace of AppLovin SDK to use.
+ */
+- (id)initWithFrame:(CGRect)frame size:(ALAdSize *)aSize sdk:(ALSdk *) anSdk;
 
 @end

@@ -10,6 +10,7 @@
 
 #import "ALSdkSettings.h"
 #import "ALAdService.h"
+#import "ALTargetingData.h"
 
 /**
  * Current SDK version
@@ -37,11 +38,27 @@ extern NSString * const AlSdkUriHost;
  */
 @interface ALSdk : NSObject
 
-
 @property (readonly, strong) NSString* sdkKey;
 @property (readonly, strong) ALSdkSettings * settings;
 
+
+/**
+ * Get an instance of AppLovin Ad service. This service is
+ * used to fetch ads from AppLovin servers, track clicks and
+ * conversions.
+ *
+ * @return Ad service. Guaranteed not to be null.
+ */
 -(ALAdService *) adService;
+
+/**
+ * Get an instance of AppLovin Targeting data. This object contains
+ * targeting values that could be provided to AppLovin for better
+ * advertisement performance.
+ *
+ * @return Current targeting data. Guaranteed not to be null.
+ */
+-(ALTargetingData *) targetingData;
 
 /**
  * Get a shared instance of AppLovin SDK. Please make sure that application's 
@@ -54,11 +71,12 @@ extern NSString * const AlSdkUriHost;
 /**
  * Get an instance of AppLovin SDK.
  * 
+ * @param sdkKey         SDK key to use. May be null.
  * @param userSettings   User-provided settings. May be null.
  * 
  * @return An instance of AppLovinSDK
  */
-+ (ALSdk *) sharedWithSettings : (ALSdkSettings *)settings;
++ (ALSdk *) sharedWithKey: (NSString *)sdkKey settings:(ALSdkSettings *)settings;
 
 + (NSString *) version;
 

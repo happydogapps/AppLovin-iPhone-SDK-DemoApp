@@ -12,6 +12,7 @@
 #import "ALAdSize.h"
 #import "ALAdLoadDelegate.h"
 #import "ALAdDisplayDelegate.h"
+#import "ALAdUpdateDelegate.h"
 
 /**
  * This is an endpoint name for custom AppLovin URL for tracking
@@ -64,10 +65,11 @@ extern NSString * const AlSdkLandingPage;
  * be notified once new ad is available to display.
  * 
  * @param adSize    Size of an ad to load. Must not be null.
+ * @param placement String that identifies ad placement
  * @param callback  A callback to notify of the fact that the ad is loaded. Must not be null. A reference
  *                  to the callback will be persisted until the ad is loaded.
  */
--(void) loadNextAd: (ALAdSize *) adSize andNotify: (id<ALAdLoadDelegate>)delegate;
+-(void) loadNextAd: (ALAdSize *) adSize placedAt: (NSString *) placement andNotify: (id<ALAdLoadDelegate>)delegate;
 
 /**
  * Track a click on a given ad.
@@ -77,23 +79,8 @@ extern NSString * const AlSdkLandingPage;
  */
 -(void) trackClickOn: (ALAd *) ad;
 
-/**
- * Track a conversion of this application. This method returns immediately, a tracking operation is
- * executed in the background. A tracking request would be sent only if conversion has not been tracked
- * before.
- */
--(void) trackConversion;
+-(void)removeAdUpdateListener: (id<ALAdUpdateDelegate>) adListener;
 
-/**
- * Ask a user about whether he opts into social ad program. This method
- * schedules a task that would render a dialog asking user to agree to
- * AppLovin terms of use.
- */
--(void) promptSocialAdsOptin;
+-(void)addAdUpdateListener: (id<ALAdUpdateDelegate>) adListener;
 
-/**
- * Get a shared instance of an ad service.
- */
-
-+(ALAdService *) shared;
 @end

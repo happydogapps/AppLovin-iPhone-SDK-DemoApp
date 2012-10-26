@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ALAdSize.h"
+
+#import "ALAdSize.h"
 
 /**
  * This class represents an ad that has been served from AppLovin server and
@@ -18,6 +21,7 @@
 @interface ALAd : NSObject
 
 @property (strong, nonatomic) NSString * html;
+@property (strong, nonatomic) ALAdSize * size;
 @property (strong, nonatomic) NSString * destinationUrl;
 @property (strong, nonatomic) NSString * clickTrackerUrl;
 
