@@ -8,6 +8,7 @@
 
 #import "ALDCustomBannerController.h"
 
+#import "ALSdk.h"
 @interface ALDCustomBannerController ()
 
 @end
@@ -29,29 +30,29 @@
     
     // Create new AdView
     adView = [[ALAdView alloc] initBannerAd];
-    
+
     //
-    // (Optional) Register self as listener for ad dispayed events. 
+    // (Optional) Register self as listener for ad dispayed events.
     //
     //    -(void) ad:(ALAd *) ad wasDisplayedIn: (ALAdView *)view will be invoked when
     //
-    // an ad was recieved, rendered and loaded. 
+    // an ad was recieved, rendered and loaded.
     //
     adView.adDisplayDelegate = self;
-    
+
     //
     // (Optional) Position the ad at the bottom of screen. By default
     // it would be postitioned at (0,0)
     //
-    adView.frame = CGRectMake( 0, 
+    adView.frame = CGRectMake( 0,
                                mainView.frame.size.height - adView.frame.size.height,
                                adView.frame.size.width,
                                adView.frame.size.height );
 
-    
+
     // (Mandatory) Add the ad into current view
     [self.view addSubview: adView];
-    
+
     // (Mandatory) Trigger loading of the new ad.
     [adView loadNextAd];
 }
@@ -108,6 +109,11 @@
                          mainView.frame = mainViewFrame;
                      }
                      completion: NULL];
+}
+
+-(void)ad:(ALAd *)ad wasClickedIn:(UIView *)view
+{
+    
 }
 
 

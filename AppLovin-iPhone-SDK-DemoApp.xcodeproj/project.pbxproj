@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */; };
 		FD1E5C01154F4AFB00341290 /* ALDCustomBannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */; };
-		FD1E5C16154F58C600341290 /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E5C15154F58C500341290 /* libAppLovinSdk.a */; };
 		FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E74154A30F5009DF377 /* UIKit.framework */; };
 		FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E76154A30F5009DF377 /* Foundation.framework */; };
 		FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E78154A30F5009DF377 /* CoreGraphics.framework */; };
@@ -18,17 +17,13 @@
 		FD293E85154A30F5009DF377 /* ALDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E84154A30F5009DF377 /* ALDAppDelegate.m */; };
 		FD293E88154A30F5009DF377 /* ALDSimpleBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */; };
 		FD293E8B154A30F5009DF377 /* ALDSimpleBannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD293E89154A30F5009DF377 /* ALDSimpleBannerController.xib */; };
-		FD9BB583163B130100099786 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA8154A339A009DF377 /* CoreTelephony.framework */; };
-		FD9BB584163B130A00099786 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293EA7154A339A009DF377 /* CoreLocation.framework */; };
-		FD9BB586163B134000099786 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9BB585163B134000099786 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		FD9BB588163B138A00099786 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9BB587163B138A00099786 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD5B2131165D791300AFB4F7 /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5B2130165D791300AFB4F7 /* libAppLovinSdk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDCustomBannerController.h; sourceTree = "<group>"; };
 		FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDCustomBannerController.m; sourceTree = "<group>"; };
 		FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDCustomBannerController.xib; sourceTree = "<group>"; };
-		FD1E5C15154F58C500341290 /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "../AppLovin-iPhone-SDK/build/libAppLovinSdk.a"; sourceTree = "<group>"; };
 		FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppLovin-iPhone-SDK-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD293E74154A30F5009DF377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD293E76154A30F5009DF377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,23 +37,18 @@
 		FD293E86154A30F5009DF377 /* ALDSimpleBannerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDSimpleBannerController.h; sourceTree = "<group>"; };
 		FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDSimpleBannerController.m; sourceTree = "<group>"; };
 		FD293E8A154A30F5009DF377 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALDSimpleBannerController.xib; sourceTree = "<group>"; };
-		FD293EA6154A339A009DF377 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		FD293EA7154A339A009DF377 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		FD293EA8154A339A009DF377 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		FD293EA9154A339A009DF377 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FD9BB578163B127A00099786 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAd.h; path = AppLovin/ALAd.h; sourceTree = "<group>"; };
-		FD9BB579163B127A00099786 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdDisplayDelegate.h; path = AppLovin/ALAdDisplayDelegate.h; sourceTree = "<group>"; };
-		FD9BB57A163B127A00099786 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdLoadDelegate.h; path = AppLovin/ALAdLoadDelegate.h; sourceTree = "<group>"; };
-		FD9BB57B163B127A00099786 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdService.h; path = AppLovin/ALAdService.h; sourceTree = "<group>"; };
-		FD9BB57C163B127B00099786 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdSize.h; path = AppLovin/ALAdSize.h; sourceTree = "<group>"; };
-		FD9BB57D163B127B00099786 /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdUpdateDelegate.h; path = AppLovin/ALAdUpdateDelegate.h; sourceTree = "<group>"; };
-		FD9BB57E163B127B00099786 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdView.h; path = AppLovin/ALAdView.h; sourceTree = "<group>"; };
-		FD9BB57F163B127B00099786 /* ALInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALInterstitialAd.h; path = AppLovin/ALInterstitialAd.h; sourceTree = "<group>"; };
-		FD9BB580163B127B00099786 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALSdk.h; path = AppLovin/ALSdk.h; sourceTree = "<group>"; };
-		FD9BB581163B127B00099786 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALSdkSettings.h; path = AppLovin/ALSdkSettings.h; sourceTree = "<group>"; };
-		FD9BB582163B127B00099786 /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTargetingData.h; path = AppLovin/ALTargetingData.h; sourceTree = "<group>"; };
-		FD9BB585163B134000099786 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		FD9BB587163B138A00099786 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FD5B2125165D78FD00AFB4F7 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAd.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAd.h"; sourceTree = "<group>"; };
+		FD5B2126165D78FD00AFB4F7 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdDisplayDelegate.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAdDisplayDelegate.h"; sourceTree = "<group>"; };
+		FD5B2127165D78FD00AFB4F7 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdLoadDelegate.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAdLoadDelegate.h"; sourceTree = "<group>"; };
+		FD5B2128165D78FD00AFB4F7 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdService.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAdService.h"; sourceTree = "<group>"; };
+		FD5B2129165D78FD00AFB4F7 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdSize.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAdSize.h"; sourceTree = "<group>"; };
+		FD5B212A165D78FD00AFB4F7 /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdUpdateDelegate.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAdUpdateDelegate.h"; sourceTree = "<group>"; };
+		FD5B212B165D78FD00AFB4F7 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALAdView.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALAdView.h"; sourceTree = "<group>"; };
+		FD5B212C165D78FD00AFB4F7 /* ALInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALInterstitialAd.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALInterstitialAd.h"; sourceTree = "<group>"; };
+		FD5B212D165D78FD00AFB4F7 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALSdk.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALSdk.h"; sourceTree = "<group>"; };
+		FD5B212E165D78FD00AFB4F7 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALSdkSettings.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALSdkSettings.h"; sourceTree = "<group>"; };
+		FD5B212F165D78FD00AFB4F7 /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTargetingData.h; path = "../../AppLovin-iPhone-SDK/build/headers/ALTargetingData.h"; sourceTree = "<group>"; };
+		FD5B2130165D791300AFB4F7 /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "../AppLovin-iPhone-SDK/build/libAppLovinSdk.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9BB584163B130A00099786 /* CoreLocation.framework in Frameworks */,
-				FD9BB583163B130100099786 /* CoreTelephony.framework in Frameworks */,
-				FD9BB586163B134000099786 /* SystemConfiguration.framework in Frameworks */,
-				FD9BB588163B138A00099786 /* StoreKit.framework in Frameworks */,
-				FD1E5C16154F58C600341290 /* libAppLovinSdk.a in Frameworks */,
+				FD5B2131165D791300AFB4F7 /* libAppLovinSdk.a in Frameworks */,
 				FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */,
 				FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */,
 				FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */,
@@ -83,13 +69,6 @@
 		FD293E65154A30F5009DF377 = {
 			isa = PBXGroup;
 			children = (
-				FD9BB587163B138A00099786 /* StoreKit.framework */,
-				FD9BB585163B134000099786 /* SystemConfiguration.framework */,
-				FD1E5C15154F58C500341290 /* libAppLovinSdk.a */,
-				FD293EA6154A339A009DF377 /* AddressBook.framework */,
-				FD293EA7154A339A009DF377 /* CoreLocation.framework */,
-				FD293EA8154A339A009DF377 /* CoreTelephony.framework */,
-				FD293EA9154A339A009DF377 /* QuartzCore.framework */,
 				FD293E7A154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */,
 				FD293E73154A30F5009DF377 /* Frameworks */,
 				FD293E71154A30F5009DF377 /* Products */,
@@ -107,6 +86,7 @@
 		FD293E73154A30F5009DF377 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD5B2130165D791300AFB4F7 /* libAppLovinSdk.a */,
 				FD293E74154A30F5009DF377 /* UIKit.framework */,
 				FD293E76154A30F5009DF377 /* Foundation.framework */,
 				FD293E78154A30F5009DF377 /* CoreGraphics.framework */,
@@ -117,7 +97,7 @@
 		FD293E7A154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				FD9BB577163B126800099786 /* Applovin */,
+				FD5B2123165D78E300AFB4F7 /* AppLovin */,
 				FD293E83154A30F5009DF377 /* ALDAppDelegate.h */,
 				FD293E84154A30F5009DF377 /* ALDAppDelegate.m */,
 				FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */,
@@ -142,22 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FD9BB577163B126800099786 /* Applovin */ = {
+		FD5B2123165D78E300AFB4F7 /* AppLovin */ = {
 			isa = PBXGroup;
 			children = (
-				FD9BB578163B127A00099786 /* ALAd.h */,
-				FD9BB579163B127A00099786 /* ALAdDisplayDelegate.h */,
-				FD9BB57A163B127A00099786 /* ALAdLoadDelegate.h */,
-				FD9BB57B163B127A00099786 /* ALAdService.h */,
-				FD9BB57C163B127B00099786 /* ALAdSize.h */,
-				FD9BB57D163B127B00099786 /* ALAdUpdateDelegate.h */,
-				FD9BB57E163B127B00099786 /* ALAdView.h */,
-				FD9BB57F163B127B00099786 /* ALInterstitialAd.h */,
-				FD9BB580163B127B00099786 /* ALSdk.h */,
-				FD9BB581163B127B00099786 /* ALSdkSettings.h */,
-				FD9BB582163B127B00099786 /* ALTargetingData.h */,
+				FD5B2125165D78FD00AFB4F7 /* ALAd.h */,
+				FD5B2126165D78FD00AFB4F7 /* ALAdDisplayDelegate.h */,
+				FD5B2127165D78FD00AFB4F7 /* ALAdLoadDelegate.h */,
+				FD5B2128165D78FD00AFB4F7 /* ALAdService.h */,
+				FD5B2129165D78FD00AFB4F7 /* ALAdSize.h */,
+				FD5B212A165D78FD00AFB4F7 /* ALAdUpdateDelegate.h */,
+				FD5B212B165D78FD00AFB4F7 /* ALAdView.h */,
+				FD5B212C165D78FD00AFB4F7 /* ALInterstitialAd.h */,
+				FD5B212D165D78FD00AFB4F7 /* ALSdk.h */,
+				FD5B212E165D78FD00AFB4F7 /* ALSdkSettings.h */,
+				FD5B212F165D78FD00AFB4F7 /* ALTargetingData.h */,
 			);
-			name = Applovin;
+			name = AppLovin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +281,7 @@
 		FD293E8F154A30F5009DF377 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Prefix.pch";
 				INFOPLIST_FILE = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Info.plist";
@@ -308,12 +289,14 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Desktop/AppLovin iPhone SDK\"",
 					"\"$(SRCROOT)/../AppLovin-iPhone-SDK/build\"",
+					"\"$(SRCROOT)/../AppLovin-iPhone-SDK/releases/1.0.6\"",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -321,6 +304,7 @@
 		FD293E90154A30F5009DF377 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Prefix.pch";
 				INFOPLIST_FILE = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Info.plist";
@@ -328,12 +312,14 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Desktop/AppLovin iPhone SDK\"",
 					"\"$(SRCROOT)/../AppLovin-iPhone-SDK/build\"",
+					"\"$(SRCROOT)/../AppLovin-iPhone-SDK/releases/1.0.6\"",
 				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
