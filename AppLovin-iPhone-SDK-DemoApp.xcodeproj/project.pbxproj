@@ -21,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63C79A6B16683FD500E57DCD /* AppLovinCustomEventBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLovinCustomEventBanner.h; sourceTree = "<group>"; };
+		63C79A6C16683FD500E57DCD /* AppLovinCustomEventBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLovinCustomEventBanner.m; sourceTree = "<group>"; };
 		FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDCustomBannerController.h; sourceTree = "<group>"; };
 		FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDCustomBannerController.m; sourceTree = "<group>"; };
 		FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDCustomBannerController.xib; sourceTree = "<group>"; };
@@ -100,6 +102,8 @@
 				FD5B2123165D78E300AFB4F7 /* AppLovin */,
 				FD293E83154A30F5009DF377 /* ALDAppDelegate.h */,
 				FD293E84154A30F5009DF377 /* ALDAppDelegate.m */,
+				63C79A6B16683FD500E57DCD /* AppLovinCustomEventBanner.h */,
+				63C79A6C16683FD500E57DCD /* AppLovinCustomEventBanner.m */,
 				FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */,
 				FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */,
 				FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */,
