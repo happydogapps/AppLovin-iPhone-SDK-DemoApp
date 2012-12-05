@@ -12,18 +12,23 @@
 
 @synthesize adWhirlView;
 
-+ (ALAdWhirlLoadDelegate *) initWithAdWhirlView:(AdWhirlView *)adWhirlView {
-    ALAdWhirlLoadDelegate *delegate = [[ALAdWhirlLoadDelegate alloc] init];
-    delegate.adWhirlView = adWhirlView;
-    return delegate;
-}
 
-- (void) adService:(ALAdService *)adService didLoadAd:(ALAd *)ad {
+- (void) adService:(ALAdService *)adService didLoadAd:(ALAd *)ad
+{
     [[adWhirlView delegate] adWhirlDidReceiveAd:adWhirlView];
 }
 
-- (void) adService:(ALAdService *)adService didFailToLoadAdWithError:(int)code {
+- (void) adService:(ALAdService *)adService didFailToLoadAdWithError:(int)code
+{
     [[adWhirlView delegate] adWhirlDidFailToReceiveAd:adWhirlView usingBackup:NO];
+}
+
++ (ALAdWhirlLoadDelegate *) initWithAdWhirlView:(AdWhirlView *)adWhirlView
+{
+    ALAdWhirlLoadDelegate *delegate = [[ALAdWhirlLoadDelegate alloc] init];
+    delegate.adWhirlView = adWhirlView;
+    
+    return delegate;
 }
 
 @end

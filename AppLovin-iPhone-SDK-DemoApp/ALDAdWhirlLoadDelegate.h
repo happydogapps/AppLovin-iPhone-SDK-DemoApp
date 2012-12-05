@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "ALAdLoadDelegate.h"
-#import "AdWhirlView.h"
 
-@interface ALAdWhirlLoadDelegate : NSObject <ALAdLoadDelegate>
+#import "AlWhirlView.h"
+
+@interface ALDAdWhirlLoadDelegate : NSObject <ALAdLoadDelegate>
 
 @property (nonatomic, retain) AdWhirlView *adWhirlView;
 

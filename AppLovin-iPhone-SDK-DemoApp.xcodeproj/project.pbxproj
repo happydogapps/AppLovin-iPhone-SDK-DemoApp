@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		63BC4D7C166D858F004693A0 /* ALDAdWhirlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */; };
 		63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */; };
-		63BC4D82166D85BF004693A0 /* ALDAdWhirlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC4D81166D85BF004693A0 /* ALDAdWhirlController.m */; };
 		FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */; };
 		FD1E5C01154F4AFB00341290 /* ALDCustomBannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */; };
+		FD232683166FD5F500E01C0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232682166FD5F500E01C0B /* CoreLocation.framework */; };
+		FD232686166FD5FF00E01C0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232685166FD5FF00E01C0B /* SystemConfiguration.framework */; };
+		FD232688166FD60700E01C0B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232687166FD60700E01C0B /* AdSupport.framework */; };
+		FD23268A166FD61400E01C0B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232689166FD61400E01C0B /* CoreTelephony.framework */; };
 		FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E74154A30F5009DF377 /* UIKit.framework */; };
 		FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E76154A30F5009DF377 /* Foundation.framework */; };
 		FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E78154A30F5009DF377 /* CoreGraphics.framework */; };
@@ -24,57 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63BC4D4B166D84B5004693A0 /* ALAdWhirlLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAdWhirlLoadDelegate.h; sourceTree = "<group>"; };
-		63BC4D4C166D84B5004693A0 /* ALAdWhirlLoadDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAdWhirlLoadDelegate.m; sourceTree = "<group>"; };
-		63BC4D4F166D84FB004693A0 /* AdWhirlDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlDelegateProtocol.h; sourceTree = "<group>"; };
-		63BC4D50166D84FB004693A0 /* AdWhirlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlView.h; sourceTree = "<group>"; };
-		63BC4D52166D8511004693A0 /* AdWhirlAdapterCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlAdapterCustom.h; sourceTree = "<group>"; };
-		63BC4D53166D8511004693A0 /* AdWhirlAdapterCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlAdapterCustom.m; sourceTree = "<group>"; };
-		63BC4D54166D8511004693A0 /* AdWhirlAdapterEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlAdapterEvent.h; sourceTree = "<group>"; };
-		63BC4D55166D8511004693A0 /* AdWhirlAdapterEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlAdapterEvent.m; sourceTree = "<group>"; };
-		63BC4D56166D8511004693A0 /* AdWhirlAdapterGeneric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlAdapterGeneric.h; sourceTree = "<group>"; };
-		63BC4D57166D8511004693A0 /* AdWhirlAdapterGeneric.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlAdapterGeneric.m; sourceTree = "<group>"; };
-		63BC4D58166D8511004693A0 /* AdWhirlAdNetworkAdapter+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdWhirlAdNetworkAdapter+Helpers.h"; sourceTree = "<group>"; };
-		63BC4D59166D8511004693A0 /* AdWhirlAdNetworkAdapter+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AdWhirlAdNetworkAdapter+Helpers.m"; sourceTree = "<group>"; };
-		63BC4D5A166D8511004693A0 /* AdWhirlAdNetworkAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlAdNetworkAdapter.m; sourceTree = "<group>"; };
-		63BC4D5B166D8511004693A0 /* AdWhirlAdNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlAdNetworkConfig.h; sourceTree = "<group>"; };
-		63BC4D5C166D8511004693A0 /* AdWhirlAdNetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlAdNetworkConfig.m; sourceTree = "<group>"; };
-		63BC4D5D166D8511004693A0 /* AdWhirlAdNetworkRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlAdNetworkRegistry.h; sourceTree = "<group>"; };
-		63BC4D5E166D8511004693A0 /* AdWhirlAdNetworkRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlAdNetworkRegistry.m; sourceTree = "<group>"; };
-		63BC4D5F166D8511004693A0 /* AdWhirlClassWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlClassWrapper.h; sourceTree = "<group>"; };
-		63BC4D60166D8511004693A0 /* AdWhirlClassWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlClassWrapper.m; sourceTree = "<group>"; };
-		63BC4D61166D8511004693A0 /* AdWhirlConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlConfig.h; sourceTree = "<group>"; };
-		63BC4D62166D8511004693A0 /* AdWhirlConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlConfig.m; sourceTree = "<group>"; };
-		63BC4D63166D8511004693A0 /* AdWhirlConfigStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlConfigStore.h; sourceTree = "<group>"; };
-		63BC4D64166D8511004693A0 /* AdWhirlConfigStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlConfigStore.m; sourceTree = "<group>"; };
-		63BC4D65166D8511004693A0 /* AdWhirlCustomAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlCustomAdView.h; sourceTree = "<group>"; };
-		63BC4D66166D8511004693A0 /* AdWhirlCustomAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlCustomAdView.m; sourceTree = "<group>"; };
-		63BC4D67166D8511004693A0 /* AdWhirlError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlError.h; sourceTree = "<group>"; };
-		63BC4D68166D8511004693A0 /* AdWhirlError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlError.m; sourceTree = "<group>"; };
-		63BC4D69166D8511004693A0 /* AdWhirlLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlLog.h; sourceTree = "<group>"; };
-		63BC4D6A166D8511004693A0 /* AdWhirlLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlLog.m; sourceTree = "<group>"; };
-		63BC4D6B166D8511004693A0 /* AdWhirlView+.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdWhirlView+.h"; sourceTree = "<group>"; };
-		63BC4D6C166D8511004693A0 /* AdWhirlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlView.m; sourceTree = "<group>"; };
-		63BC4D6D166D8511004693A0 /* AdWhirlWebBrowser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdWhirlWebBrowser.xib; sourceTree = "<group>"; };
-		63BC4D6E166D8511004693A0 /* AdWhirlWebBrowserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlWebBrowserController.h; sourceTree = "<group>"; };
-		63BC4D6F166D8511004693A0 /* AdWhirlWebBrowserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdWhirlWebBrowserController.m; sourceTree = "<group>"; };
-		63BC4D70166D8511004693A0 /* ARRollerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRollerView.m; sourceTree = "<group>"; };
-		63BC4D71166D8511004693A0 /* AWNetworkReachabilityDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWNetworkReachabilityDelegate.h; sourceTree = "<group>"; };
-		63BC4D72166D8511004693A0 /* AWNetworkReachabilityWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWNetworkReachabilityWrapper.h; sourceTree = "<group>"; };
-		63BC4D73166D8511004693A0 /* AWNetworkReachabilityWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWNetworkReachabilityWrapper.m; sourceTree = "<group>"; };
-		63BC4D74166D8511004693A0 /* UIColor+AdWhirlConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+AdWhirlConfig.h"; sourceTree = "<group>"; };
-		63BC4D75166D8511004693A0 /* UIColor+AdWhirlConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AdWhirlConfig.m"; sourceTree = "<group>"; };
-		63BC4D77166D8525004693A0 /* ARRollerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRollerProtocol.h; sourceTree = "<group>"; };
-		63BC4D78166D8525004693A0 /* ARRollerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRollerView.h; sourceTree = "<group>"; };
-		63BC4D7A166D8534004693A0 /* AdWhirlAdNetworkAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdWhirlAdNetworkAdapter.h; sourceTree = "<group>"; };
+		63BC4D4B166D84B5004693A0 /* ALDAdWhirlLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDAdWhirlLoadDelegate.h; sourceTree = "<group>"; };
+		63BC4D4C166D84B5004693A0 /* ALDAdWhirlLoadDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDAdWhirlLoadDelegate.m; sourceTree = "<group>"; };
 		63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDAdWhirlController.xib; sourceTree = "<group>"; };
 		63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDAdWhirlController.h; sourceTree = "<group>"; };
 		63BC4D81166D85BF004693A0 /* ALDAdWhirlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDAdWhirlController.m; sourceTree = "<group>"; };
-		63C79A6B16683FD500E57DCD /* AppLovinCustomEventBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLovinCustomEventBanner.h; sourceTree = "<group>"; };
-		63C79A6C16683FD500E57DCD /* AppLovinCustomEventBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLovinCustomEventBanner.m; sourceTree = "<group>"; };
+		63C79A6B16683FD500E57DCD /* ALDAdMobMediationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDAdMobMediationController.h; sourceTree = "<group>"; };
+		63C79A6C16683FD500E57DCD /* ALDAdMobMediationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDAdMobMediationController.m; sourceTree = "<group>"; };
 		FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDCustomBannerController.h; sourceTree = "<group>"; };
 		FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDCustomBannerController.m; sourceTree = "<group>"; };
 		FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDCustomBannerController.xib; sourceTree = "<group>"; };
+		FD232682166FD5F500E01C0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FD232685166FD5FF00E01C0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FD232687166FD60700E01C0B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FD232689166FD61400E01C0B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppLovin-iPhone-SDK-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD293E74154A30F5009DF377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD293E76154A30F5009DF377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -107,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD23268A166FD61400E01C0B /* CoreTelephony.framework in Frameworks */,
+				FD232688166FD60700E01C0B /* AdSupport.framework in Frameworks */,
+				FD232686166FD5FF00E01C0B /* SystemConfiguration.framework in Frameworks */,
+				FD232683166FD5F500E01C0B /* CoreLocation.framework in Frameworks */,
 				FD5B2131165D791300AFB4F7 /* libAppLovinSdk.a in Frameworks */,
 				FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */,
 				FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */,
@@ -117,78 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63BC4D4E166D84E3004693A0 /* AdWhirl */ = {
-			isa = PBXGroup;
-			children = (
-				63BC4D79166D8529004693A0 /* adapters */,
-				63BC4D76166D851D004693A0 /* legacy */,
-				63BC4D51166D8508004693A0 /* internal */,
-				63BC4D4F166D84FB004693A0 /* AdWhirlDelegateProtocol.h */,
-				63BC4D50166D84FB004693A0 /* AdWhirlView.h */,
-			);
-			name = AdWhirl;
-			sourceTree = "<group>";
-		};
-		63BC4D51166D8508004693A0 /* internal */ = {
-			isa = PBXGroup;
-			children = (
-				63BC4D52166D8511004693A0 /* AdWhirlAdapterCustom.h */,
-				63BC4D53166D8511004693A0 /* AdWhirlAdapterCustom.m */,
-				63BC4D54166D8511004693A0 /* AdWhirlAdapterEvent.h */,
-				63BC4D55166D8511004693A0 /* AdWhirlAdapterEvent.m */,
-				63BC4D56166D8511004693A0 /* AdWhirlAdapterGeneric.h */,
-				63BC4D57166D8511004693A0 /* AdWhirlAdapterGeneric.m */,
-				63BC4D58166D8511004693A0 /* AdWhirlAdNetworkAdapter+Helpers.h */,
-				63BC4D59166D8511004693A0 /* AdWhirlAdNetworkAdapter+Helpers.m */,
-				63BC4D5A166D8511004693A0 /* AdWhirlAdNetworkAdapter.m */,
-				63BC4D5B166D8511004693A0 /* AdWhirlAdNetworkConfig.h */,
-				63BC4D5C166D8511004693A0 /* AdWhirlAdNetworkConfig.m */,
-				63BC4D5D166D8511004693A0 /* AdWhirlAdNetworkRegistry.h */,
-				63BC4D5E166D8511004693A0 /* AdWhirlAdNetworkRegistry.m */,
-				63BC4D5F166D8511004693A0 /* AdWhirlClassWrapper.h */,
-				63BC4D60166D8511004693A0 /* AdWhirlClassWrapper.m */,
-				63BC4D61166D8511004693A0 /* AdWhirlConfig.h */,
-				63BC4D62166D8511004693A0 /* AdWhirlConfig.m */,
-				63BC4D63166D8511004693A0 /* AdWhirlConfigStore.h */,
-				63BC4D64166D8511004693A0 /* AdWhirlConfigStore.m */,
-				63BC4D65166D8511004693A0 /* AdWhirlCustomAdView.h */,
-				63BC4D66166D8511004693A0 /* AdWhirlCustomAdView.m */,
-				63BC4D67166D8511004693A0 /* AdWhirlError.h */,
-				63BC4D68166D8511004693A0 /* AdWhirlError.m */,
-				63BC4D69166D8511004693A0 /* AdWhirlLog.h */,
-				63BC4D6A166D8511004693A0 /* AdWhirlLog.m */,
-				63BC4D6B166D8511004693A0 /* AdWhirlView+.h */,
-				63BC4D6C166D8511004693A0 /* AdWhirlView.m */,
-				63BC4D6D166D8511004693A0 /* AdWhirlWebBrowser.xib */,
-				63BC4D6E166D8511004693A0 /* AdWhirlWebBrowserController.h */,
-				63BC4D6F166D8511004693A0 /* AdWhirlWebBrowserController.m */,
-				63BC4D70166D8511004693A0 /* ARRollerView.m */,
-				63BC4D71166D8511004693A0 /* AWNetworkReachabilityDelegate.h */,
-				63BC4D72166D8511004693A0 /* AWNetworkReachabilityWrapper.h */,
-				63BC4D73166D8511004693A0 /* AWNetworkReachabilityWrapper.m */,
-				63BC4D74166D8511004693A0 /* UIColor+AdWhirlConfig.h */,
-				63BC4D75166D8511004693A0 /* UIColor+AdWhirlConfig.m */,
-			);
-			name = internal;
-			sourceTree = "<group>";
-		};
-		63BC4D76166D851D004693A0 /* legacy */ = {
-			isa = PBXGroup;
-			children = (
-				63BC4D77166D8525004693A0 /* ARRollerProtocol.h */,
-				63BC4D78166D8525004693A0 /* ARRollerView.h */,
-			);
-			name = legacy;
-			sourceTree = "<group>";
-		};
-		63BC4D79166D8529004693A0 /* adapters */ = {
-			isa = PBXGroup;
-			children = (
-				63BC4D7A166D8534004693A0 /* AdWhirlAdNetworkAdapter.h */,
-			);
-			name = adapters;
-			sourceTree = "<group>";
-		};
 		FD293E65154A30F5009DF377 = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +107,10 @@
 		FD293E73154A30F5009DF377 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63BC4D4E166D84E3004693A0 /* AdWhirl */,
+				FD232689166FD61400E01C0B /* CoreTelephony.framework */,
+				FD232687166FD60700E01C0B /* AdSupport.framework */,
+				FD232685166FD5FF00E01C0B /* SystemConfiguration.framework */,
+				FD232682166FD5F500E01C0B /* CoreLocation.framework */,
 				FD5B2130165D791300AFB4F7 /* libAppLovinSdk.a */,
 				FD293E74154A30F5009DF377 /* UIKit.framework */,
 				FD293E76154A30F5009DF377 /* Foundation.framework */,
@@ -221,20 +122,22 @@
 		FD293E7A154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				FD5B2123165D78E300AFB4F7 /* AppLovin */,
-				FD293E83154A30F5009DF377 /* ALDAppDelegate.h */,
-				FD293E84154A30F5009DF377 /* ALDAppDelegate.m */,
-				63C79A6B16683FD500E57DCD /* AppLovinCustomEventBanner.h */,
-				63C79A6C16683FD500E57DCD /* AppLovinCustomEventBanner.m */,
-				FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */,
-				FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */,
-				FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */,
+				63C79A6B16683FD500E57DCD /* ALDAdMobMediationController.h */,
+				63C79A6C16683FD500E57DCD /* ALDAdMobMediationController.m */,
 				63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */,
 				63BC4D81166D85BF004693A0 /* ALDAdWhirlController.m */,
 				63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */,
+				63BC4D4B166D84B5004693A0 /* ALDAdWhirlLoadDelegate.h */,
+				63BC4D4C166D84B5004693A0 /* ALDAdWhirlLoadDelegate.m */,
+				FD293E83154A30F5009DF377 /* ALDAppDelegate.h */,
+				FD293E84154A30F5009DF377 /* ALDAppDelegate.m */,
+				FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */,
+				FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */,
+				FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */,
 				FD293E86154A30F5009DF377 /* ALDSimpleBannerController.h */,
 				FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */,
 				FD293E89154A30F5009DF377 /* ALDSimpleBannerController.xib */,
+				FD5B2123165D78E300AFB4F7 /* AppLovin */,
 				FD293E7B154A30F5009DF377 /* Supporting Files */,
 			);
 			path = "AppLovin-iPhone-SDK-DemoApp";
@@ -254,8 +157,6 @@
 		FD5B2123165D78E300AFB4F7 /* AppLovin */ = {
 			isa = PBXGroup;
 			children = (
-				63BC4D4B166D84B5004693A0 /* ALAdWhirlLoadDelegate.h */,
-				63BC4D4C166D84B5004693A0 /* ALAdWhirlLoadDelegate.m */,
 				FD5B2125165D78FD00AFB4F7 /* ALAd.h */,
 				FD5B2126165D78FD00AFB4F7 /* ALAdDisplayDelegate.h */,
 				FD5B2127165D78FD00AFB4F7 /* ALAdLoadDelegate.h */,
@@ -341,7 +242,6 @@
 				FD293E85154A30F5009DF377 /* ALDAppDelegate.m in Sources */,
 				FD293E88154A30F5009DF377 /* ALDSimpleBannerController.m in Sources */,
 				FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */,
-				63BC4D82166D85BF004693A0 /* ALDAdWhirlController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

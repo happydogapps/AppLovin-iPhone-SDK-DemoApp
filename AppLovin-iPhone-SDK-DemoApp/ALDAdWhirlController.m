@@ -7,20 +7,18 @@
 //
 
 #import "ALDAdWhirlController.h"
-#import "AdWhirlView.h"
 
-@interface ALDAdWhirlController ()
-
-@end
 
 @implementation ALDAdWhirlController
 
 
-- (NSString *)adWhirlApplicationKey {
+-(NSString *)adWhirlApplicationKey
+{
     return @"YOUR_API_KEY";
 }
 
-- (UIViewController *)viewControllerForPresentingModalView {
+- (UIViewController *)viewControllerForPresentingModalView
+{
     return self;
 }
 
@@ -39,11 +37,13 @@
     
     // Create new AdView
     AdWhirlView *adWhirlView = [AdWhirlView requestAdWhirlViewWithDelegate:self];
-    [self.view addSubview:adWhirlView];}
+    [self.view addSubview:adWhirlView];
+}
 
-- (void)applovinAdWhirlEvent:(AdWhirlView *)adWhirlView {
+- (void)applovinAdWhirlEvent:(AdWhirlView *)adWhirlView
+{
     ALAdView *alAdview = [[ALAdView alloc] initBannerAd];
-    [alAdview setAdLoadDelegate:[ALAdWhirlLoadDelegate initWithAdWhirlView:adWhirlView]];
+    [alAdview setAdLoadDelegate: [ALAdWhirlLoadDelegate initWithAdWhirlView:adWhirlView] ];
     [alAdview loadNextAd];
     
     [adWhirlView replaceBannerViewWith:alAdview];

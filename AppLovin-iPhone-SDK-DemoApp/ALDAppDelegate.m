@@ -19,11 +19,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    //
     // Override point for customization after application launch.
+    //
     
     self.viewController = [[ALDCustomBannerController alloc] initWithNibName:@"ALDCustomBannerController" bundle:nil];
     //self.viewController = [[ALDSimpleBannerController alloc] initWithNibName:@"ALDViewController" bundle:nil];
-    
+  
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

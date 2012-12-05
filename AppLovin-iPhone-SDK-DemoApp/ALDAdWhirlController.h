@@ -8,4 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ALDAdWhirlController : UIViewController
+#import "ALAdView.h"
+#import "ALDAdWhirlLoadDelegate.h"
+
+@interface ALDAdWhirlController : UIViewController<AdWhirlDelegate>
+@end
