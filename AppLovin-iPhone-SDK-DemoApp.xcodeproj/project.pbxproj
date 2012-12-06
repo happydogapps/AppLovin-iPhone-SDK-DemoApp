@@ -11,10 +11,10 @@
 		63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */; };
 		FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */; };
 		FD1E5C01154F4AFB00341290 /* ALDCustomBannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */; };
-		FD232683166FD5F500E01C0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232682166FD5F500E01C0B /* CoreLocation.framework */; };
-		FD232686166FD5FF00E01C0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232685166FD5FF00E01C0B /* SystemConfiguration.framework */; };
-		FD232688166FD60700E01C0B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232687166FD60700E01C0B /* AdSupport.framework */; };
-		FD23268A166FD61400E01C0B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232689166FD61400E01C0B /* CoreTelephony.framework */; };
+		FD232683166FD5F500E01C0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232682166FD5F500E01C0B /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD232686166FD5FF00E01C0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232685166FD5FF00E01C0B /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD232688166FD60700E01C0B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232687166FD60700E01C0B /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD23268A166FD61400E01C0B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD232689166FD61400E01C0B /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E74154A30F5009DF377 /* UIKit.framework */; };
 		FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E76154A30F5009DF377 /* Foundation.framework */; };
 		FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E78154A30F5009DF377 /* CoreGraphics.framework */; };
