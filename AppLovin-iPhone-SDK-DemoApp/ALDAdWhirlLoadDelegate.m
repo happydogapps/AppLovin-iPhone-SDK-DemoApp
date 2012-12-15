@@ -1,6 +1,6 @@
 //
 //  ALAdWhirlLoadDelegate.m
-//  AppLovin AdMob Mediation
+//  AppLovin iOS AdWhirl Integration
 //
 //  Created by David Anderson on 12/3/12.
 //  Copyright (c) 2012 AppLovin. All rights reserved.
@@ -12,6 +12,13 @@
 
 @synthesize adWhirlView;
 
++ (ALAdWhirlLoadDelegate *) initWithAdWhirlView:(AdWhirlView *)adWhirlView
+{
+    ALAdWhirlLoadDelegate *delegate = [[ALAdWhirlLoadDelegate alloc] init];
+    delegate.adWhirlView = adWhirlView;
+    
+    return delegate;
+}
 
 - (void) adService:(ALAdService *)adService didLoadAd:(ALAd *)ad
 {
@@ -21,14 +28,6 @@
 - (void) adService:(ALAdService *)adService didFailToLoadAdWithError:(int)code
 {
     [[adWhirlView delegate] adWhirlDidFailToReceiveAd:adWhirlView usingBackup:NO];
-}
-
-+ (ALAdWhirlLoadDelegate *) initWithAdWhirlView:(AdWhirlView *)adWhirlView
-{
-    ALAdWhirlLoadDelegate *delegate = [[ALAdWhirlLoadDelegate alloc] init];
-    delegate.adWhirlView = adWhirlView;
-    
-    return delegate;
 }
 
 @end
