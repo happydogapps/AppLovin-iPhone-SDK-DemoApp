@@ -9,6 +9,7 @@
 #import "ALDAppDelegate.h"
 
 #import "ALDSimpleBannerController.h"
+#import "ALDSimpleInterstitialController.h"
 #import "ALDCustomBannerController.h"
 
 @implementation ALDAppDelegate
@@ -24,8 +25,7 @@
     // Override point for customization after application launch.
     //
     
-    self.viewController = [[ALDCustomBannerController alloc] initWithNibName:@"ALDCustomBannerController" bundle:nil];
-    //self.viewController = [[ALDSimpleBannerController alloc] initWithNibName:@"ALDViewController" bundle:nil];
+    self.viewController = [[ALDSimpleBannerController alloc] initWithNibName:@"ALDSimpleBannerController" bundle:nil];
   
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

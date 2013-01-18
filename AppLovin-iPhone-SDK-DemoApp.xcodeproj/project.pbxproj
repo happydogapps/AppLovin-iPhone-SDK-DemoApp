@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632F101C16A8D404005B8537 /* ALDSimpleInterstitialController.m in Resources */ = {isa = PBXBuildFile; fileRef = 632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */; };
+		632F101D16A8D404005B8537 /* ALDSimpleInterstitialController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */; };
+		632F102616A8D5B8005B8537 /* ALDAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = FD293E83154A30F5009DF377 /* ALDAppDelegate.h */; };
+		632F102716A8D5B8005B8537 /* ALDCustomBannerController.h in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFD154F4AFB00341290 /* ALDCustomBannerController.h */; };
+		632F102816A8D5B8005B8537 /* ALDCustomBannerController.xib in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFF154F4AFB00341290 /* ALDCustomBannerController.xib */; };
+		632F102916A8D5B8005B8537 /* ALDSimpleBannerController.h in Sources */ = {isa = PBXBuildFile; fileRef = FD293E86154A30F5009DF377 /* ALDSimpleBannerController.h */; };
+		632F102A16A8D5B8005B8537 /* ALDSimpleInterstitialController.h in Sources */ = {isa = PBXBuildFile; fileRef = 632F101916A8D404005B8537 /* ALDSimpleInterstitialController.h */; };
+		632F102B16A8D5B8005B8537 /* ALDSimpleInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */; };
+		632F102C16A8D5B8005B8537 /* ALDSimpleInterstitialController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */; };
 		63BC4D7C166D858F004693A0 /* ALDAdWhirlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */; };
 		63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */; };
 		FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */; };
@@ -27,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		632F101916A8D404005B8537 /* ALDSimpleInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDSimpleInterstitialController.h; sourceTree = "<group>"; };
+		632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDSimpleInterstitialController.m; sourceTree = "<group>"; };
+		632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDSimpleInterstitialController.xib; sourceTree = "<group>"; };
 		63BC4D4B166D84B5004693A0 /* ALDAdWhirlLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDAdWhirlLoadDelegate.h; sourceTree = "<group>"; };
 		63BC4D4C166D84B5004693A0 /* ALDAdWhirlLoadDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDAdWhirlLoadDelegate.m; sourceTree = "<group>"; };
 		63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDAdWhirlController.xib; sourceTree = "<group>"; };
@@ -137,6 +149,9 @@
 				FD293E86154A30F5009DF377 /* ALDSimpleBannerController.h */,
 				FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */,
 				FD293E89154A30F5009DF377 /* ALDSimpleBannerController.xib */,
+				632F101916A8D404005B8537 /* ALDSimpleInterstitialController.h */,
+				632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */,
+				632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */,
 				FD5B2123165D78E300AFB4F7 /* AppLovin */,
 				FD293E7B154A30F5009DF377 /* Supporting Files */,
 			);
@@ -228,6 +243,8 @@
 				FD1E5C01154F4AFB00341290 /* ALDCustomBannerController.xib in Resources */,
 				63BC4D7C166D858F004693A0 /* ALDAdWhirlController.xib in Resources */,
 				63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */,
+				632F101C16A8D404005B8537 /* ALDSimpleInterstitialController.m in Resources */,
+				632F101D16A8D404005B8537 /* ALDSimpleInterstitialController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632F102616A8D5B8005B8537 /* ALDAppDelegate.h in Sources */,
+				632F102716A8D5B8005B8537 /* ALDCustomBannerController.h in Sources */,
+				632F102816A8D5B8005B8537 /* ALDCustomBannerController.xib in Sources */,
+				632F102916A8D5B8005B8537 /* ALDSimpleBannerController.h in Sources */,
+				632F102A16A8D5B8005B8537 /* ALDSimpleInterstitialController.h in Sources */,
+				632F102B16A8D5B8005B8537 /* ALDSimpleInterstitialController.m in Sources */,
+				632F102C16A8D5B8005B8537 /* ALDSimpleInterstitialController.xib in Sources */,
 				FD293E81154A30F5009DF377 /* main.m in Sources */,
 				FD293E85154A30F5009DF377 /* ALDAppDelegate.m in Sources */,
 				FD293E88154A30F5009DF377 /* ALDSimpleBannerController.m in Sources */,
