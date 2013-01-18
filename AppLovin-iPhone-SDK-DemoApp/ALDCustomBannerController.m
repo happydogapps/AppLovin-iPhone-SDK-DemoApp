@@ -113,7 +113,7 @@
 
 -(void)ad:(ALAd *)ad wasClickedIn:(UIView *)view
 {
-    
+    NSLog(@"wasClickedIn");
 }
 
 
