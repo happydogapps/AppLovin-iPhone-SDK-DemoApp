@@ -37,7 +37,7 @@
     
     // Create new AdView
     AdWhirlView *adWhirlView = [AdWhirlView requestAdWhirlViewWithDelegate:self];
-    [self.view addSubview:adWhirlView];mailto:roberto.sonzogni@gmail.com
+    [self.view addSubview:adWhirlView];
 }
 
 - (void)applovinAdWhirlEvent:(AdWhirlView *)adWhirlView
