@@ -17,6 +17,8 @@
 		632F102B16A8D5B8005B8537 /* ALDSimpleInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */; };
 		632F102C16A8D5B8005B8537 /* ALDSimpleInterstitialController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */; };
 		634D464D16A9FF5F001DD8F6 /* AppLovinCustomEventInter.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D464C16A9FF5E001DD8F6 /* AppLovinCustomEventInter.m */; };
+		635422E216AF43CC001F0E95 /* ALDCustomInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635422E016AF43CC001F0E95 /* ALDCustomInterstitialController.m */; };
+		635422E316AF43CC001F0E95 /* ALDCustomInterstitialController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635422E116AF43CC001F0E95 /* ALDCustomInterstitialController.xib */; };
 		63BC4D7C166D858F004693A0 /* ALDAdWhirlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */; };
 		63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */; };
 		FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */; };
@@ -135,6 +137,9 @@
 		632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDSimpleInterstitialController.xib; sourceTree = "<group>"; };
 		634D464B16A9FF5E001DD8F6 /* AppLovinCustomEventInter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinCustomEventInter.h; sourceTree = "<group>"; };
 		634D464C16A9FF5E001DD8F6 /* AppLovinCustomEventInter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinCustomEventInter.m; sourceTree = "<group>"; };
+		635422DF16AF43CC001F0E95 /* ALDCustomInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDCustomInterstitialController.h; sourceTree = "<group>"; };
+		635422E016AF43CC001F0E95 /* ALDCustomInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDCustomInterstitialController.m; sourceTree = "<group>"; };
+		635422E116AF43CC001F0E95 /* ALDCustomInterstitialController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDCustomInterstitialController.xib; sourceTree = "<group>"; };
 		63BC4D4B166D84B5004693A0 /* ALDAdWhirlLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDAdWhirlLoadDelegate.h; sourceTree = "<group>"; };
 		63BC4D4C166D84B5004693A0 /* ALDAdWhirlLoadDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDAdWhirlLoadDelegate.m; sourceTree = "<group>"; };
 		63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDAdWhirlController.xib; sourceTree = "<group>"; };
@@ -460,6 +465,9 @@
 				632F101916A8D404005B8537 /* ALDSimpleInterstitialController.h */,
 				632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */,
 				632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */,
+				635422DF16AF43CC001F0E95 /* ALDCustomInterstitialController.h */,
+				635422E016AF43CC001F0E95 /* ALDCustomInterstitialController.m */,
+				635422E116AF43CC001F0E95 /* ALDCustomInterstitialController.xib */,
 				6320BB9416AE163F00A2A34F /* AdMob */,
 				FD5B2123165D78E300AFB4F7 /* AppLovin */,
 				FD293E7B154A30F5009DF377 /* Supporting Files */,
@@ -570,6 +578,7 @@
 				63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */,
 				632F101C16A8D404005B8537 /* ALDSimpleInterstitialController.m in Resources */,
 				632F101D16A8D404005B8537 /* ALDSimpleInterstitialController.xib in Resources */,
+				635422E316AF43CC001F0E95 /* ALDCustomInterstitialController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +601,7 @@
 				FD293E88154A30F5009DF377 /* ALDSimpleBannerController.m in Sources */,
 				FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */,
 				634D464D16A9FF5F001DD8F6 /* AppLovinCustomEventInter.m in Sources */,
+				635422E216AF43CC001F0E95 /* ALDCustomInterstitialController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
