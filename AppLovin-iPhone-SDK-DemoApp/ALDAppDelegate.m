@@ -11,6 +11,7 @@
 #import "ALDSimpleBannerController.h"
 #import "ALDSimpleInterstitialController.h"
 #import "ALDCustomBannerController.h"
+#import "ALDCustomInterstitialController.h"
 
 @implementation ALDAppDelegate
 

@@ -35,8 +35,14 @@
  *
  * @param window An instance of window to show the interstitial over.
  * @param ad The ALAd that you want to render into this interstitial.
-*/
+ */
 
 -(void) showOver:(UIWindow *)window andRender: (ALAd *) ad;
+
+/**
+ * Get shared interstitial view
+ */
+ 
++(ALInterstitialAd *) shared;
 
 @end

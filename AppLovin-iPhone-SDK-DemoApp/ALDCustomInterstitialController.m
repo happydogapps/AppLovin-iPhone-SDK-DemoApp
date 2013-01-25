@@ -31,7 +31,6 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    interstitial = [ALInterstitialAd alloc];
     [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial] placedAt:@"ALDCustomInterstitialController" andNotify:self];
 }
 
@@ -44,7 +43,7 @@
 
 -(void)adService:(ALAdService *)adService didLoadAd:(ALAd *)ad
 {
-    [interstitial showOver:self.view.window andRender:ad];
+    [[ALInterstitialAd shared] showOver:self.view.window andRender:ad];
 }
 
 

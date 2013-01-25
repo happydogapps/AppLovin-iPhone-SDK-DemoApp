@@ -10,19 +10,11 @@
 
 -(void) presentFromRootViewController:(UIViewController *)rootViewController
 {
-    if (appLovinAd)
-    {
-        [appLovinInter showOver:rootViewController.view.window andRender:appLovinAd];
-    }
+    [[ALInterstitialAd shared] showOver:rootViewController.view.window andRender:appLovinAd];
 }
 
 - (void)requestInterstitialAdWithParameter:(NSString *)serverParameter label:(NSString *)serverLabel request:(GADCustomEventRequest *)request
 {
-    if (!appLovinInter)
-    {
-        appLovinInter = [ALInterstitialAd alloc];
-    }
-    
     [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial] placedAt:@"AdMobMediation" andNotify:self];
 }
 

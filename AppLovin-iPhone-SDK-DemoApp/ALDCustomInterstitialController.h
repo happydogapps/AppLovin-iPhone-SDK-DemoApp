@@ -12,7 +12,6 @@
 #import "ALAdLoadDelegate.h"
 
 @interface ALDCustomInterstitialController : UIViewController <ALAdDisplayDelegate, ALAdLoadDelegate> {
-ALInterstitialAd * interstitial;
 }
 
 @end
