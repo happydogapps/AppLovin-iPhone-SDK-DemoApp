@@ -39,6 +39,7 @@
     // an ad was recieved, rendered and loaded.
     //
     adView.adDisplayDelegate = self;
+    adView.adLoadDelegate = self;
 
     //
     // (Optional) Position the ad at the bottom of screen. By default
@@ -116,6 +117,24 @@
     NSLog(@"wasClickedIn");
 }
 
+-(void)adService:(ALAdService *)adService didLoadAd:(ALAd *)ad
+{
+    // Newly loaded ad is automatically dispalyed.
+    //
+    // Any additional logic could be placed here.
+}
+
+-(void)adService:(ALAdService *)adService didFailToLoadAdWithError:(int)code
+{
+    // When ad fails to load AppLovinAdView will be automatically
+    // hidden.
+    //
+    // Any additional logic could be placed here. Common error codes
+    // are:
+    //       202 -- no ad is available
+    //       5xx -- server errors
+    //  negative -- internal errors
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

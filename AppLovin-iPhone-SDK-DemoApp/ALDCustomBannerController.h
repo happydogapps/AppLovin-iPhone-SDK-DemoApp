@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ALAdView.h"
 
-@interface ALDCustomBannerController : UIViewController<ALAdDisplayDelegate> {
+@interface ALDCustomBannerController : UIViewController<ALAdDisplayDelegate, ALAdLoadDelegate> {
     IBOutlet UIView * mainView;
     ALAdView * adView;
 }
