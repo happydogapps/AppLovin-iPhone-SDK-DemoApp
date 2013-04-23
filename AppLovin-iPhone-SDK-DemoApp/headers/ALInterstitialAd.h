@@ -3,7 +3,7 @@
 //  sdk
 //
 //  Created by Basil on 3/22/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013, AppLovin Corporation. All rights reserved.
 //
 #import <UIKit/UIKit.h>
 #import "ALSdk.h"

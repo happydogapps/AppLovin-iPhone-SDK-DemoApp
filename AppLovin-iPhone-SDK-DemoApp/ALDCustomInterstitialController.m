@@ -32,6 +32,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial] placedAt:@"ALDCustomInterstitialController" andNotify:self];
+    [ALInterstitialAd shared].adDisplayDelegate = self;
 }
 
 - (void)didReceiveMemoryWarning

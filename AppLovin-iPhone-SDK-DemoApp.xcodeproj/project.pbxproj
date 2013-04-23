@@ -19,7 +19,6 @@
 		634D464D16A9FF5F001DD8F6 /* AppLovinCustomEventInter.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D464C16A9FF5E001DD8F6 /* AppLovinCustomEventInter.m */; };
 		635422E216AF43CC001F0E95 /* ALDCustomInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635422E016AF43CC001F0E95 /* ALDCustomInterstitialController.m */; };
 		635422E316AF43CC001F0E95 /* ALDCustomInterstitialController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635422E116AF43CC001F0E95 /* ALDCustomInterstitialController.xib */; };
-		6392A50916B32AFC0066AC15 /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6392A50816B32AFC0066AC15 /* libAppLovinSdk.a */; };
 		63BC4D7C166D858F004693A0 /* ALDAdWhirlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */; };
 		63BC4D80166D85A9004693A0 /* ALDAdWhirlController.h in Resources */ = {isa = PBXBuildFile; fileRef = 63BC4D7F166D85A9004693A0 /* ALDAdWhirlController.h */; };
 		FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E5BFE154F4AFB00341290 /* ALDCustomBannerController.m */; };
@@ -130,7 +129,6 @@
 		6320BBF416AE164E00A2A34F /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
 		6320BBF516AE164E00A2A34F /* GADRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
 		6320BBF616AE164E00A2A34F /* GADRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
-		6320BBF716AE164E00A2A34F /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		6320BBF816AE164E00A2A34F /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		632F101916A8D404005B8537 /* ALDSimpleInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDSimpleInterstitialController.h; sourceTree = "<group>"; };
 		632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDSimpleInterstitialController.m; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 		6392A50516B32AFC0066AC15 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
 		6392A50616B32AFC0066AC15 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
 		6392A50716B32AFC0066AC15 /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTargetingData.h; sourceTree = "<group>"; };
-		6392A50816B32AFC0066AC15 /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppLovinSdk.a; sourceTree = "<group>"; };
 		63BC4D4B166D84B5004693A0 /* ALDAdWhirlLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDAdWhirlLoadDelegate.h; sourceTree = "<group>"; };
 		63BC4D4C166D84B5004693A0 /* ALDAdWhirlLoadDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDAdWhirlLoadDelegate.m; sourceTree = "<group>"; };
 		63BC4D7B166D858F004693A0 /* ALDAdWhirlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALDAdWhirlController.xib; sourceTree = "<group>"; };
@@ -193,7 +190,6 @@
 				FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */,
 				FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */,
 				FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */,
-				6392A50916B32AFC0066AC15 /* libAppLovinSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +209,6 @@
 				6320BBF416AE164E00A2A34F /* GADInterstitialDelegate.h */,
 				6320BBF516AE164E00A2A34F /* GADRequest.h */,
 				6320BBF616AE164E00A2A34F /* GADRequestError.h */,
-				6320BBF716AE164E00A2A34F /* libGoogleAdMobAds.a */,
 				6320BBF816AE164E00A2A34F /* README.txt */,
 			);
 			name = AdMob;
@@ -507,7 +502,6 @@
 			isa = PBXGroup;
 			children = (
 				6392A4FC16B32AFC0066AC15 /* headers */,
-				6392A50816B32AFC0066AC15 /* libAppLovinSdk.a */,
 			);
 			name = AppLovin;
 			sourceTree = "<group>";
