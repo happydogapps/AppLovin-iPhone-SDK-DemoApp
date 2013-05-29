@@ -35,6 +35,7 @@
 		FD293E88154A30F5009DF377 /* ALDSimpleBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */; };
 		FD293E8B154A30F5009DF377 /* ALDSimpleBannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD293E89154A30F5009DF377 /* ALDSimpleBannerController.xib */; };
 		FDD35A431756B5540002CF85 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD35A421756B5540002CF85 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FDD35A571756C3030002CF85 /* Add_Applovin_Headers_Here in Resources */ = {isa = PBXBuildFile; fileRef = FDD35A561756C3030002CF85 /* Add_Applovin_Headers_Here */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,17 +121,7 @@
 		FD293E87154A30F5009DF377 /* ALDSimpleBannerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDSimpleBannerController.m; sourceTree = "<group>"; };
 		FD293E8A154A30F5009DF377 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALDSimpleBannerController.xib; sourceTree = "<group>"; };
 		FDD35A421756B5540002CF85 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		FDD35A4B1756BB220002CF85 /* ALAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAd.h; sourceTree = "<group>"; };
-		FDD35A4C1756BB220002CF85 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdDisplayDelegate.h; sourceTree = "<group>"; };
-		FDD35A4D1756BB220002CF85 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdLoadDelegate.h; sourceTree = "<group>"; };
-		FDD35A4E1756BB220002CF85 /* ALAdService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdService.h; sourceTree = "<group>"; };
-		FDD35A4F1756BB220002CF85 /* ALAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdSize.h; sourceTree = "<group>"; };
-		FDD35A501756BB220002CF85 /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdUpdateDelegate.h; sourceTree = "<group>"; };
-		FDD35A511756BB220002CF85 /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
-		FDD35A521756BB220002CF85 /* ALInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALInterstitialAd.h; sourceTree = "<group>"; };
-		FDD35A531756BB220002CF85 /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
-		FDD35A541756BB220002CF85 /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
-		FDD35A551756BB220002CF85 /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTargetingData.h; sourceTree = "<group>"; };
+		FDD35A561756C3030002CF85 /* Add_Applovin_Headers_Here */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Add_Applovin_Headers_Here; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,17 +286,7 @@
 		6392A4FC16B32AFC0066AC15 /* headers */ = {
 			isa = PBXGroup;
 			children = (
-				FDD35A4B1756BB220002CF85 /* ALAd.h */,
-				FDD35A4C1756BB220002CF85 /* ALAdDisplayDelegate.h */,
-				FDD35A4D1756BB220002CF85 /* ALAdLoadDelegate.h */,
-				FDD35A4E1756BB220002CF85 /* ALAdService.h */,
-				FDD35A4F1756BB220002CF85 /* ALAdSize.h */,
-				FDD35A501756BB220002CF85 /* ALAdUpdateDelegate.h */,
-				FDD35A511756BB220002CF85 /* ALAdView.h */,
-				FDD35A521756BB220002CF85 /* ALInterstitialAd.h */,
-				FDD35A531756BB220002CF85 /* ALSdk.h */,
-				FDD35A541756BB220002CF85 /* ALSdkSettings.h */,
-				FDD35A551756BB220002CF85 /* ALTargetingData.h */,
+				FDD35A561756C3030002CF85 /* Add_Applovin_Headers_Here */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -453,6 +434,7 @@
 				632F101C16A8D404005B8537 /* ALDSimpleInterstitialController.m in Resources */,
 				632F101D16A8D404005B8537 /* ALDSimpleInterstitialController.xib in Resources */,
 				635422E316AF43CC001F0E95 /* ALDCustomInterstitialController.xib in Resources */,
+				FDD35A571756C3030002CF85 /* Add_Applovin_Headers_Here in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
