@@ -2,7 +2,7 @@
 //  AppLovinSdk.h
 //
 //  Created by Basil Shikin on 2/1/12.
-//  Copyright (c) 2013, AppLovin Corporation. All rights reserved.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -38,7 +38,8 @@ extern NSString * const AlSdkUriHost;
  */
 @interface ALSdk : NSObject
 
-@property (readonly, strong) NSString* sdkKey;
+@property (readonly, strong) NSString *      sdkKey;
+
 @property (readonly, strong) ALSdkSettings * settings;
 
 

@@ -3,7 +3,7 @@
 //  sdk
 //
 //  Created by Basil on 3/1/12.
-//  Copyright (c) 2013, AppLovin Corporation. All rights reserved.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -41,11 +41,23 @@
 -(id)initBannerAd;
 
 /**
+ * Initialize ad view as a MRec.
+ */
+-(id) initMRecAd;
+
+/**
  * Initialize ad view as a banner.
  *
  * @param sdk    Instace of AppLovin SDK to use.
  */
 -(id)initBannerAdWithSdk: (ALSdk *)anSdk;
+
+/**
+ * Initialize ad view as a mrec.
+ *
+ * @param sdk    Instance of AppLovin SDK to use.
+ */
+-(id)initMRecAdWithSdk: (ALSdk *)anSdk;
 
 /**
  * Initialize ad view with given frame and size

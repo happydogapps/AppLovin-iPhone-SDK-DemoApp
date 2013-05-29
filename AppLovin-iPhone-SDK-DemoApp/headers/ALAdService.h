@@ -3,7 +3,7 @@
 //  sdk
 //
 //  Created by Basil on 2/27/12.
-//  Copyright (c) 2013, AppLovin Corporation. All rights reserved.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -79,8 +79,16 @@ extern NSString * const AlSdkLandingPage;
  */
 -(void) trackClickOn: (ALAd *) ad;
 
--(void)removeAdUpdateListener: (id<ALAdUpdateDelegate>) adListener;
+/**
+ * Add an observer of updates of advertisemetns of a given size
+ *
+ *  @param adListener  Listener to add
+ *  @param adSize      Size of ads that the listener is interested in
+ */
+-(void)addAdUpdateObserver: (id<ALAdUpdateObserver>) adListener ofSize: (ALAdSize *) adSize;
 
--(void)addAdUpdateListener: (id<ALAdUpdateDelegate>) adListener;
+-(void)removeAdUpdateObserver: (id<ALAdUpdateObserver>) adListener ofSize: (ALAdSize *) adSize;
+
+
 
 @end

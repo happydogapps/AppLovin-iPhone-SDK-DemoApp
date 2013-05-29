@@ -15,41 +15,45 @@
 
 @implementation ALDCustomInterstitialController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
+- (void)viewDidAppear:(BOOL)animated
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+    //
+    // Trigger a log of the next interstitial. When the ad is loaded
+    // adService:didLoadAd: will be invoked. In case of failure
+    // adService:didFailToLoadAdWithError: will be called
+    //
+    [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial]      placedAt:@"ALDCustomInterstitialController" andNotify:self];
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial] placedAt:@"ALDCustomInterstitialController" andNotify:self];
-    [ALInterstitialAd shared].adDisplayDelegate = self;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 -(void)adService:(ALAdService *)adService didLoadAd:(ALAd *)ad
 {
+    //
+    // Attach a listener to interstitial view state. When the intesritial
+    // This is an optional step that should be used to listen for
+    // displayed, closed and clicked events
+    //
+    [ALInterstitialAd shared].adDisplayDelegate = self;
+
+
+    //
+    // Show loaded an interstitial over the current window
+    //
     [[ALInterstitialAd shared] showOver:self.view.window andRender:ad];
 }
 
-
 -(void)adService:(ALAdService *)adService didFailToLoadAdWithError:(int)code
 {
+    //
+    // An ad failed to load. 'code' variable would contain an HTTP code of the
+    // failure. Common error codes are:
+    //
+    //       202 -- no ad is available
+    //       5xx -- server errors
+    //  negative -- internal errors
+    //
     NSLog(@"didFailToLoadAdWithError");
 }
 
@@ -63,10 +67,28 @@
     NSLog(@"wasHiddenIn");
 }
 
-
 -(void)ad:(ALAd *)ad wasClickedIn:(UIView *)view
 {
     NSLog(@"wasClickedIn");
 }
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+}
+
 
 @end

@@ -15,11 +15,20 @@
 
 @implementation ALDSimpleInterstitialController
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    //
+    // This method trigger AppLovin interstitial loading.
+    // Note that the application flow will not be blocked: an interstital
+    // will be displayed when loaded from the server.
+    //
+    [ALInterstitialAd showOver:self.view.window];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
@@ -27,17 +36,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [ALInterstitialAd showOver:self.view.window];
-
-}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

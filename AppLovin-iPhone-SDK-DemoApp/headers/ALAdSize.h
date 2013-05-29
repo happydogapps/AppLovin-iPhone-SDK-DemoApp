@@ -3,7 +3,7 @@
 //  sdk
 //
 //  Created by Basil on 2/27/12.
-//  Copyright (c) 2013, AppLovin Corporation. All rights reserved.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,7 +16,7 @@
  * @author Basil Shikin
  * @version 1.0
  */
-@interface ALAdSize : NSObject {
+@interface ALAdSize : NSObject<NSCopying> {
     NSUInteger width;
     NSUInteger height;
     NSString * label;
@@ -33,5 +33,11 @@
 +(ALAdSize *) sizeBanner;
 
 +(ALAdSize *) sizeInterstitial;
+
++(ALAdSize *) sizeMRec;
+
++(ALAdSize *) sizeLeader;
+
++(NSArray *) allSizes;
 
 @end

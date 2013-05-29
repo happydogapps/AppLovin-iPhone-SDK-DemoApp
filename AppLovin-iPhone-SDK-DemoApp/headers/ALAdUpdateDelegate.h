@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol ALAdUpdateDelegate <NSObject>
+@protocol ALAdUpdateObserver <NSObject>
 
 -(void)adService:(ALAdService *)adService didUpdateAd:(ALAd *)ad;
 
