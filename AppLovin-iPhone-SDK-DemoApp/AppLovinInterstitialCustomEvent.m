@@ -56,7 +56,7 @@
 
 -(void)adService:(ALAdService *)adService didFailToLoadAdWithError:(int)code
 {
-    NSLog(@"Failed to load AppLovin interstitial: %i", code);
+    NSLog(@"Failed to load AppLovin interstitial: %d", code);
     
     [self.delegate interstitialCustomEvent:self didFailToLoadAdWithError:nil];
 }
