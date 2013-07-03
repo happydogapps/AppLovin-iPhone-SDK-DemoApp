@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		273A19D9175960F4004B9DCF /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 273A19D8175960F4004B9DCF /* libAppLovinSdk.a */; };
+		276E74471784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 276E74461784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.m */; };
 		632F101C16A8D404005B8537 /* ALDSimpleInterstitialController.m in Resources */ = {isa = PBXBuildFile; fileRef = 632F101A16A8D404005B8537 /* ALDSimpleInterstitialController.m */; };
 		632F101D16A8D404005B8537 /* ALDSimpleInterstitialController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632F101B16A8D404005B8537 /* ALDSimpleInterstitialController.xib */; };
 		632F102616A8D5B8005B8537 /* ALDAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = FD293E83154A30F5009DF377 /* ALDAppDelegate.h */; };
@@ -52,6 +53,8 @@
 		273A19D6175960F4004B9DCF /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
 		273A19D7175960F4004B9DCF /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTargetingData.h; sourceTree = "<group>"; };
 		273A19D8175960F4004B9DCF /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "../../Downloads/applovin-sdk-2.0.92-hotfix/libAppLovinSdk.a"; sourceTree = "<group>"; };
+		276E74451784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDProgrammaticSdkKeyExample.h; sourceTree = "<group>"; };
+		276E74461784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDProgrammaticSdkKeyExample.m; sourceTree = "<group>"; };
 		6320BB9816AE164E00A2A34F /* DFPBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
 		6320BB9916AE164E00A2A34F /* DFPExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
 		6320BB9A16AE164E00A2A34F /* DFPInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
@@ -384,6 +387,8 @@
 				635422DF16AF43CC001F0E95 /* ALDCustomInterstitialController.h */,
 				635422E016AF43CC001F0E95 /* ALDCustomInterstitialController.m */,
 				635422E116AF43CC001F0E95 /* ALDCustomInterstitialController.xib */,
+				276E74451784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.h */,
+				276E74461784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.m */,
 				6320BB9416AE163F00A2A34F /* AdMob */,
 				FD5B2123165D78E300AFB4F7 /* AppLovin */,
 				FD293E7B154A30F5009DF377 /* Supporting Files */,
@@ -493,6 +498,7 @@
 				FD1E5C00154F4AFB00341290 /* ALDCustomBannerController.m in Sources */,
 				634D464D16A9FF5F001DD8F6 /* AppLovinCustomEventInter.m in Sources */,
 				635422E216AF43CC001F0E95 /* ALDCustomInterstitialController.m in Sources */,
+				276E74471784B4F6002899B1 /* ALDProgrammaticSdkKeyExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
