@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "ALSdk.h"
+#import "ALInterstitialAd.h"
 
 @interface ALDProgrammaticSdkKeyExample : UIViewController
-
+@property ALSdk * sdk;
 @end

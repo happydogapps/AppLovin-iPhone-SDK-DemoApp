@@ -13,13 +13,14 @@
 @end
 
 @implementation ALDProgrammaticSdkKeyExample
+@synthesize sdk;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Initialize SDK manually with a programmatically specified SDK key
-        ALSdk * sdk = [ALSdk sharedWithKey:@"SDK_KEY_HERE" settings:[[ALSdkSettings alloc] init]];
+       sdk = [ALSdk sharedWithKey:@"SDK_KEY_HERE" settings:[[ALSdkSettings alloc] init]];
     }
     return self;
 }

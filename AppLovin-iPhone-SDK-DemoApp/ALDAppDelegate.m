@@ -27,7 +27,7 @@
     
     
     // Display simple banner demo
-    self.viewController = [ [ALDSimpleBannerController alloc] initWithNibName:@"ALDSimpleBannerController" bundle:nil];
+    self.viewController = [ [ALDSimpleBannerController alloc] initWithNibName:@"ALDSimpleInterstitialController" bundle:nil];
   
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = self.viewController;
