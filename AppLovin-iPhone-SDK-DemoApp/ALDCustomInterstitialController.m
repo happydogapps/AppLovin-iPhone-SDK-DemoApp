@@ -50,7 +50,7 @@
     // An ad failed to load. 'code' variable would contain an HTTP code of the
     // failure. Common error codes are:
     //
-    //       202 -- no ad is available
+    //       204 -- no ad is available
     //       5xx -- server errors
     //  negative -- internal errors
     //
