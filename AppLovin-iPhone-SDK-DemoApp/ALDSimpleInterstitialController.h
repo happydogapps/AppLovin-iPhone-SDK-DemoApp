@@ -10,4 +10,6 @@
 
 @interface ALDSimpleInterstitialController : UIViewController
 
+- (IBAction)showInterstitial:(id)sender;
+
 @end

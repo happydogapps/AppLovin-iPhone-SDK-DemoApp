@@ -17,12 +17,6 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    //
-    // This method trigger AppLovin interstitial loading.
-    // Note that the application flow will not be blocked: an interstital
-    // will be displayed when loaded from the server.
-    //
-    [ALInterstitialAd showOver:self.view.window];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -43,4 +37,14 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)showInterstitial:(id)sender {
+    
+    //
+    // This method trigger AppLovin interstitial loading.
+    // Note that the application flow will not be blocked: an interstital
+    // will be displayed when loaded from the server.
+    //
+    [ALInterstitialAd showOver:self.view.window];
+
+}
 @end

@@ -23,7 +23,7 @@
     // adService:didLoadAd: will be invoked. In case of failure
     // adService:didFailToLoadAdWithError: will be called
     //
-    [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial]      placedAt:@"ALDCustomInterstitialController" andNotify:self];
+    [[[ALSdk shared] adService] loadNextAd:[ALAdSize sizeInterstitial] andNotify:self];
 }
 
 

@@ -26,6 +26,7 @@
 		FD25788117C69E1300C9D706 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD25788017C69E1300C9D706 /* MediaPlayer.framework */; };
 		FD25788317C69E8300C9D706 /* applovin_headers_here in Resources */ = {isa = PBXBuildFile; fileRef = FD25788217C69E8300C9D706 /* applovin_headers_here */; };
 		FD25788517C69F0400C9D706 /* applovin_a_here in Resources */ = {isa = PBXBuildFile; fileRef = FD25788417C69F0400C9D706 /* applovin_a_here */; };
+		FD25788717C69FD500C9D706 /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD25788617C69FD500C9D706 /* libAppLovinSdk.a */; };
 		FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E74154A30F5009DF377 /* UIKit.framework */; };
 		FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E76154A30F5009DF377 /* Foundation.framework */; };
 		FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD293E78154A30F5009DF377 /* CoreGraphics.framework */; };
@@ -100,6 +101,20 @@
 		FD25788017C69E1300C9D706 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FD25788217C69E8300C9D706 /* applovin_headers_here */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = applovin_headers_here; sourceTree = "<group>"; };
 		FD25788417C69F0400C9D706 /* applovin_a_here */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = applovin_a_here; sourceTree = "<group>"; };
+		FD25788617C69FD500C9D706 /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLovinSdk.a; path = "../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/libAppLovinSdk.a"; sourceTree = "<group>"; };
+		FD25788817C69FDA00C9D706 /* ALAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAd.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAd.h"; sourceTree = "<group>"; };
+		FD25788917C69FDA00C9D706 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdDisplayDelegate.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdDisplayDelegate.h"; sourceTree = "<group>"; };
+		FD25788A17C69FDA00C9D706 /* ALAdLoadDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdLoadDelegate.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdLoadDelegate.h"; sourceTree = "<group>"; };
+		FD25788B17C69FDA00C9D706 /* ALAdService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdService.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdService.h"; sourceTree = "<group>"; };
+		FD25788C17C69FDA00C9D706 /* ALAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdSize.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdSize.h"; sourceTree = "<group>"; };
+		FD25788D17C69FDA00C9D706 /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdUpdateDelegate.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdUpdateDelegate.h"; sourceTree = "<group>"; };
+		FD25788E17C69FDA00C9D706 /* ALAdVideoPlaybackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdVideoPlaybackDelegate.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdVideoPlaybackDelegate.h"; sourceTree = "<group>"; };
+		FD25788F17C69FDA00C9D706 /* ALAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALAdView.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALAdView.h"; sourceTree = "<group>"; };
+		FD25789017C69FDA00C9D706 /* ALEventService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALEventService.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALEventService.h"; sourceTree = "<group>"; };
+		FD25789117C69FDA00C9D706 /* ALInterstitialAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALInterstitialAd.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALInterstitialAd.h"; sourceTree = "<group>"; };
+		FD25789217C69FDA00C9D706 /* ALSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALSdk.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALSdk.h"; sourceTree = "<group>"; };
+		FD25789317C69FDA00C9D706 /* ALSdkSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALSdkSettings.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALSdkSettings.h"; sourceTree = "<group>"; };
+		FD25789417C69FDA00C9D706 /* ALTargetingData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALTargetingData.h; path = "../../../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate/headers/ALTargetingData.h"; sourceTree = "<group>"; };
 		FD293E70154A30F5009DF377 /* AppLovin-iPhone-SDK-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppLovin-iPhone-SDK-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD293E74154A30F5009DF377 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FD293E76154A30F5009DF377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +144,7 @@
 				FD293E79154A30F5009DF377 /* CoreGraphics.framework in Frameworks */,
 				FD293E75154A30F5009DF377 /* UIKit.framework in Frameworks */,
 				FD293E77154A30F5009DF377 /* Foundation.framework in Frameworks */,
+				FD25788717C69FD500C9D706 /* libAppLovinSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +295,19 @@
 		6392A4FC16B32AFC0066AC15 /* headers */ = {
 			isa = PBXGroup;
 			children = (
+				FD25788817C69FDA00C9D706 /* ALAd.h */,
+				FD25788917C69FDA00C9D706 /* ALAdDisplayDelegate.h */,
+				FD25788A17C69FDA00C9D706 /* ALAdLoadDelegate.h */,
+				FD25788B17C69FDA00C9D706 /* ALAdService.h */,
+				FD25788C17C69FDA00C9D706 /* ALAdSize.h */,
+				FD25788D17C69FDA00C9D706 /* ALAdUpdateDelegate.h */,
+				FD25788E17C69FDA00C9D706 /* ALAdVideoPlaybackDelegate.h */,
+				FD25788F17C69FDA00C9D706 /* ALAdView.h */,
+				FD25789017C69FDA00C9D706 /* ALEventService.h */,
+				FD25789117C69FDA00C9D706 /* ALInterstitialAd.h */,
+				FD25789217C69FDA00C9D706 /* ALSdk.h */,
+				FD25789317C69FDA00C9D706 /* ALSdkSettings.h */,
+				FD25789417C69FDA00C9D706 /* ALTargetingData.h */,
 				FD25788217C69E8300C9D706 /* applovin_headers_here */,
 			);
 			path = headers;
@@ -357,6 +386,7 @@
 			children = (
 				6392A4FC16B32AFC0066AC15 /* headers */,
 				FD25788417C69F0400C9D706 /* applovin_a_here */,
+				FD25788617C69FD500C9D706 /* libAppLovinSdk.a */,
 			);
 			name = AppLovin;
 			sourceTree = "<group>";
@@ -521,7 +551,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Prefix.pch";
 				INFOPLIST_FILE = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -539,7 +572,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Prefix.pch";
 				INFOPLIST_FILE = "AppLovin-iPhone-SDK-DemoApp/AppLovin-iPhone-SDK-DemoApp-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iOS-Sdk-2.1.0-Final-AppListUpdate\"",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",

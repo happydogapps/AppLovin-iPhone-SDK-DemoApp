@@ -26,9 +26,12 @@
     [ALSdk initializeSdk];
     
     
-    // Display simple banner demo
-    self.viewController = [ [ALDSimpleBannerController alloc] initWithNibName:@"ALDSimpleInterstitialController" bundle:nil];
-  
+    // Simple banner demo
+//    self.viewController = [ [ALDSimpleBannerController alloc] initWithNibName:@"ALDSimpleBannerController" bundle:nil];
+
+    // Simple interstitial demo
+    self.viewController = [ [ALDSimpleInterstitialController alloc] initWithNibName:@"ALDSimpleInterstitialController" bundle:nil];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
