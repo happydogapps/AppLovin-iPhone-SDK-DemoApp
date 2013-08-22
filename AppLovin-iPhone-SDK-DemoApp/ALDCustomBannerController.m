@@ -131,7 +131,7 @@
     //
     // Any additional logic could be placed here. Common error codes
     // are:
-    //       202 -- no ad is available
+    //       204 -- no ad is available
     //       5xx -- server errors
     //  negative -- internal errors
 }
